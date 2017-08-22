@@ -14,6 +14,9 @@
 		A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */; };
 		A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */; };
 		A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */; };
+		B387DE8DBFAF248A3AD32FAE /* libPods-ALI-Schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */; };
+		C35E88287563E89D4B42951A /* libPods-ALI-SchemaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6CCDA491A10772EB003E8F /* libPods-ALI-SchemaTests.a */; };
+		C5A97A70E54BAC28E1014125 /* libPods-ALI-SchemaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D0A2A5D2ADD4935DAE31AB /* libPods-ALI-SchemaUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-Schema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E99B7239F5E46C0CD0D10D3 /* Pods-ALI-SchemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F6CCDA491A10772EB003E8F /* libPods-ALI-SchemaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-SchemaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BA99EFE65614C66F629EB9 /* Pods-ALI-Schema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-Schema.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-Schema/Pods-ALI-Schema.debug.xcconfig"; sourceTree = "<group>"; };
+		55D0A2A5D2ADD4935DAE31AB /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6E7C7769B41723F94E994D /* Pods-ALI-SchemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALI-Schema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaUITests.m; sourceTree = "<group>"; };
 		A1ACAF011F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9BF11E482929DD727E9D4E /* Pods-ALI-SchemaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D401AD59D99EF9CA4E490D6C /* Pods-ALI-Schema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-Schema.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-Schema/Pods-ALI-Schema.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B387DE8DBFAF248A3AD32FAE /* libPods-ALI-Schema.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35E88287563E89D4B42951A /* libPods-ALI-SchemaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A97A70E54BAC28E1014125 /* libPods-ALI-SchemaUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31E2D01A6BB531CB95C27EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43BA99EFE65614C66F629EB9 /* Pods-ALI-Schema.debug.xcconfig */,
+				D401AD59D99EF9CA4E490D6C /* Pods-ALI-Schema.release.xcconfig */,
+				7F6E7C7769B41723F94E994D /* Pods-ALI-SchemaTests.debug.xcconfig */,
+				CB9BF11E482929DD727E9D4E /* Pods-ALI-SchemaTests.release.xcconfig */,
+				0E99B7239F5E46C0CD0D10D3 /* Pods-ALI-SchemaUITests.debug.xcconfig */,
+				814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1ACAED11F4BFFB90082BD34 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				A1ACAEF31F4BFFB90082BD34 /* ALI-SchemaTests */,
 				A1ACAEFE1F4BFFB90082BD34 /* ALI-SchemaUITests */,
 				A1ACAEDB1F4BFFB90082BD34 /* Products */,
+				31E2D01A6BB531CB95C27EE8 /* Pods */,
+				D0DDDE8B7831B0FF0056607E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +167,16 @@
 			path = "ALI-SchemaUITests";
 			sourceTree = "<group>";
 		};
+		D0DDDE8B7831B0FF0056607E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */,
+				1F6CCDA491A10772EB003E8F /* libPods-ALI-SchemaTests.a */,
+				55D0A2A5D2ADD4935DAE31AB /* libPods-ALI-SchemaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1ACAF041F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-Schema" */;
 			buildPhases = (
+				09A0D3685E39A25092D4A905 /* [CP] Check Pods Manifest.lock */,
 				A1ACAED61F4BFFB90082BD34 /* Sources */,
 				A1ACAED71F4BFFB90082BD34 /* Frameworks */,
+				A13137191F4C007200E777DE /* ShellScript */,
 				A1ACAED81F4BFFB90082BD34 /* Resources */,
+				A6C13E3F34C35F7146336121 /* [CP] Embed Pods Frameworks */,
+				74EF67CAD50AEAF80153C77A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1ACAF071F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaTests" */;
 			buildPhases = (
+				3BF99D2B350EFB7D795601D7 /* [CP] Check Pods Manifest.lock */,
 				A1ACAEEC1F4BFFB90082BD34 /* Sources */,
 				A1ACAEED1F4BFFB90082BD34 /* Frameworks */,
 				A1ACAEEE1F4BFFB90082BD34 /* Resources */,
+				6D247192287054CE1166C518 /* [CP] Embed Pods Frameworks */,
+				E822EF0A69D830AF463FE95A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1ACAF0A1F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaUITests" */;
 			buildPhases = (
+				D07F1C47DDB2B16C4A044D61 /* [CP] Check Pods Manifest.lock */,
 				A1ACAEF71F4BFFB90082BD34 /* Sources */,
 				A1ACAEF81F4BFFB90082BD34 /* Frameworks */,
 				A1ACAEF91F4BFFB90082BD34 /* Resources */,
+				232E614969C542544F7D7D7B /* [CP] Embed Pods Frameworks */,
+				B6F88A87ED6D5D7F2C4E0D33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +316,157 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A0D3685E39A25092D4A905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		232E614969C542544F7D7D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF99D2B350EFB7D795601D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D247192287054CE1166C518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74EF67CAD50AEAF80153C77A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-Schema/Pods-ALI-Schema-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13137191F4C007200E777DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		A6C13E3F34C35F7146336121 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-Schema/Pods-ALI-Schema-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F88A87ED6D5D7F2C4E0D33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07F1C47DDB2B16C4A044D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E822EF0A69D830AF463FE95A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1ACAED61F4BFFB90082BD34 /* Sources */ = {
@@ -412,32 +613,41 @@
 		};
 		A1ACAF051F4BFFB90082BD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BA99EFE65614C66F629EB9 /* Pods-ALI-Schema.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R984C6N435;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ALI-Schema/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-Schema";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		A1ACAF061F4BFFB90082BD34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D401AD59D99EF9CA4E490D6C /* Pods-ALI-Schema.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R984C6N435;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ALI-Schema/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-Schema";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		A1ACAF081F4BFFB90082BD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6E7C7769B41723F94E994D /* Pods-ALI-SchemaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -452,6 +662,7 @@
 		};
 		A1ACAF091F4BFFB90082BD34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9BF11E482929DD727E9D4E /* Pods-ALI-SchemaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -466,6 +677,7 @@
 		};
 		A1ACAF0B1F4BFFB90082BD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E99B7239F5E46C0CD0D10D3 /* Pods-ALI-SchemaUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R984C6N435;
@@ -479,6 +691,7 @@
 		};
 		A1ACAF0C1F4BFFB90082BD34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R984C6N435;
@@ -509,6 +722,7 @@
 				A1ACAF061F4BFFB90082BD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1ACAF071F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +731,7 @@
 				A1ACAF091F4BFFB90082BD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1ACAF0A1F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +740,7 @@
 				A1ACAF0C1F4BFFB90082BD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
