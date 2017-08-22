@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */; };
+		A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE11F4BFFB90082BD34 /* main.m */; };
+		A1ACAEE51F4BFFB90082BD34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE41F4BFFB90082BD34 /* ViewController.m */; };
+		A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */; };
+		A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */; };
+		A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */; };
+		A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1ACAEF11F4BFFB90082BD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ACAED21F4BFFB90082BD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ACAED91F4BFFB90082BD34;
+			remoteInfo = "ALI-Schema";
+		};
+		A1ACAEFC1F4BFFB90082BD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ACAED21F4BFFB90082BD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ACAED91F4BFFB90082BD34;
+			remoteInfo = "ALI-Schema";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALI-Schema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1ACAEE11F4BFFB90082BD34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1ACAEE31F4BFFB90082BD34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1ACAEE41F4BFFB90082BD34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1ACAEE91F4BFFB90082BD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1ACAEEB1F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ACAEF01F4BFFB90082BD34 /* ALI-SchemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaTests.m; sourceTree = "<group>"; };
+		A1ACAEF61F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaUITests.m; sourceTree = "<group>"; };
+		A1ACAF011F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1ACAED71F4BFFB90082BD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEED1F4BFFB90082BD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEF81F4BFFB90082BD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1ACAED11F4BFFB90082BD34 = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEDC1F4BFFB90082BD34 /* ALI-Schema */,
+				A1ACAEF31F4BFFB90082BD34 /* ALI-SchemaTests */,
+				A1ACAEFE1F4BFFB90082BD34 /* ALI-SchemaUITests */,
+				A1ACAEDB1F4BFFB90082BD34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1ACAEDB1F4BFFB90082BD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */,
+				A1ACAEF01F4BFFB90082BD34 /* ALI-SchemaTests.xctest */,
+				A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1ACAEDC1F4BFFB90082BD34 /* ALI-Schema */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */,
+				A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */,
+				A1ACAEE31F4BFFB90082BD34 /* ViewController.h */,
+				A1ACAEE41F4BFFB90082BD34 /* ViewController.m */,
+				A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */,
+				A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */,
+				A1ACAEEB1F4BFFB90082BD34 /* Info.plist */,
+				A1ACAEE01F4BFFB90082BD34 /* Supporting Files */,
+			);
+			path = "ALI-Schema";
+			sourceTree = "<group>";
+		};
+		A1ACAEE01F4BFFB90082BD34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEE11F4BFFB90082BD34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1ACAEF31F4BFFB90082BD34 /* ALI-SchemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */,
+				A1ACAEF61F4BFFB90082BD34 /* Info.plist */,
+			);
+			path = "ALI-SchemaTests";
+			sourceTree = "<group>";
+		};
+		A1ACAEFE1F4BFFB90082BD34 /* ALI-SchemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */,
+				A1ACAF011F4BFFB90082BD34 /* Info.plist */,
+			);
+			path = "ALI-SchemaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1ACAED91F4BFFB90082BD34 /* ALI-Schema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACAF041F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-Schema" */;
+			buildPhases = (
+				A1ACAED61F4BFFB90082BD34 /* Sources */,
+				A1ACAED71F4BFFB90082BD34 /* Frameworks */,
+				A1ACAED81F4BFFB90082BD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALI-Schema";
+			productName = "ALI-Schema";
+			productReference = A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1ACAEEF1F4BFFB90082BD34 /* ALI-SchemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACAF071F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaTests" */;
+			buildPhases = (
+				A1ACAEEC1F4BFFB90082BD34 /* Sources */,
+				A1ACAEED1F4BFFB90082BD34 /* Frameworks */,
+				A1ACAEEE1F4BFFB90082BD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ACAEF21F4BFFB90082BD34 /* PBXTargetDependency */,
+			);
+			name = "ALI-SchemaTests";
+			productName = "ALI-SchemaTests";
+			productReference = A1ACAEF01F4BFFB90082BD34 /* ALI-SchemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1ACAEFA1F4BFFB90082BD34 /* ALI-SchemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACAF0A1F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaUITests" */;
+			buildPhases = (
+				A1ACAEF71F4BFFB90082BD34 /* Sources */,
+				A1ACAEF81F4BFFB90082BD34 /* Frameworks */,
+				A1ACAEF91F4BFFB90082BD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ACAEFD1F4BFFB90082BD34 /* PBXTargetDependency */,
+			);
+			name = "ALI-SchemaUITests";
+			productName = "ALI-SchemaUITests";
+			productReference = A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1ACAED21F4BFFB90082BD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ALI-Team";
+				TargetAttributes = {
+					A1ACAED91F4BFFB90082BD34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R984C6N435;
+						ProvisioningStyle = Automatic;
+					};
+					A1ACAEEF1F4BFFB90082BD34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R984C6N435;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1ACAED91F4BFFB90082BD34;
+					};
+					A1ACAEFA1F4BFFB90082BD34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R984C6N435;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1ACAED91F4BFFB90082BD34;
+					};
+				};
+			};
+			buildConfigurationList = A1ACAED51F4BFFB90082BD34 /* Build configuration list for PBXProject "ALI-Schema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1ACAED11F4BFFB90082BD34;
+			productRefGroup = A1ACAEDB1F4BFFB90082BD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1ACAED91F4BFFB90082BD34 /* ALI-Schema */,
+				A1ACAEEF1F4BFFB90082BD34 /* ALI-SchemaTests */,
+				A1ACAEFA1F4BFFB90082BD34 /* ALI-SchemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1ACAED81F4BFFB90082BD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */,
+				A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEEE1F4BFFB90082BD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEF91F4BFFB90082BD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1ACAED61F4BFFB90082BD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACAEE51F4BFFB90082BD34 /* ViewController.m in Sources */,
+				A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */,
+				A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEEC1F4BFFB90082BD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACAEF71F4BFFB90082BD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1ACAEF21F4BFFB90082BD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ACAED91F4BFFB90082BD34 /* ALI-Schema */;
+			targetProxy = A1ACAEF11F4BFFB90082BD34 /* PBXContainerItemProxy */;
+		};
+		A1ACAEFD1F4BFFB90082BD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ACAED91F4BFFB90082BD34 /* ALI-Schema */;
+			targetProxy = A1ACAEFC1F4BFFB90082BD34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1ACAEE91F4BFFB90082BD34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1ACAF021F4BFFB90082BD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1ACAF031F4BFFB90082BD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1ACAF051F4BFFB90082BD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-Schema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-Schema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1ACAF061F4BFFB90082BD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-Schema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-Schema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1ACAF081F4BFFB90082BD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-SchemaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-SchemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALI-Schema.app/Contents/MacOS/ALI-Schema";
+			};
+			name = Debug;
+		};
+		A1ACAF091F4BFFB90082BD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-SchemaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-SchemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALI-Schema.app/Contents/MacOS/ALI-Schema";
+			};
+			name = Release;
+		};
+		A1ACAF0B1F4BFFB90082BD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-SchemaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-SchemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ALI-Schema";
+			};
+			name = Debug;
+		};
+		A1ACAF0C1F4BFFB90082BD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R984C6N435;
+				INFOPLIST_FILE = "ALI-SchemaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.alite.ALI-SchemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ALI-Schema";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1ACAED51F4BFFB90082BD34 /* Build configuration list for PBXProject "ALI-Schema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACAF021F4BFFB90082BD34 /* Debug */,
+				A1ACAF031F4BFFB90082BD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ACAF041F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-Schema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACAF051F4BFFB90082BD34 /* Debug */,
+				A1ACAF061F4BFFB90082BD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1ACAF071F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACAF081F4BFFB90082BD34 /* Debug */,
+				A1ACAF091F4BFFB90082BD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1ACAF0A1F4BFFB90082BD34 /* Build configuration list for PBXNativeTarget "ALI-SchemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACAF0B1F4BFFB90082BD34 /* Debug */,
+				A1ACAF0C1F4BFFB90082BD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1ACAED21F4BFFB90082BD34 /* Project object */;
+}
