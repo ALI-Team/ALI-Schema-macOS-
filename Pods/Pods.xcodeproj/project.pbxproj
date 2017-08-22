@@ -7,49 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00962B1A8BF698CE69391F8C2DB91AEA /* PXSourceListTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C68A78F2070A411879618AD7B8D038 /* PXSourceListTableCellView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05321719947AD4410E9EA1A65B18AE24 /* Pods-ALI-Schema-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6A2C222CBE759315BC3C16AEAD4A0 /* Pods-ALI-Schema-dummy.m */; };
+		0B5138379C3EE7A7CF2CDF7F9DC80BBD /* PXSourceListTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9584D046899582A23796E5AC6F665D /* PXSourceListTableCellView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17BAFF43A7A5F6F031A4F3EA52BD9BE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		1D2777687E49A8651A1FC25993A20CF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		4EC2D04C96899618D70A93079F9F93EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		50B2860431BBFFE14FCB24C8E8CA8873 /* Pods-ALI-Schema-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6A2C222CBE759315BC3C16AEAD4A0 /* Pods-ALI-Schema-dummy.m */; };
+		31E1FE9CCBA5893F5CFEA7059A048716 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		371EF78AEDF0187169936ABB900C4959 /* PXSourceListDelegateDataSourceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4245F8448E22A5F9BC74FE886BC84863 /* PXSourceListDelegateDataSourceProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49DD603B9E0D424B72A43D8E2CF90DE9 /* PXSourceListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD0917ED5FB12381760D968A38A96A9 /* PXSourceListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B10D8D8279BB03A841A468D79118E3 /* PXSourceListBadgeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EBA80AAB439BFC53DAAD51F7B85F0F /* PXSourceListBadgeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CF56C8F8261B9B3334DD07941C623F /* PXSourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5B3F2C6279330C8A47CD0ECC72A79 /* PXSourceListItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B645B417113137359FE84F8717E4701 /* PXSourceListDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 41976FB40E90897C2BF18C65FE827C89 /* PXSourceListDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856FD5DBDE370F6DAF720D94DE7CC1BF /* PXSourceListBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D504D6BC35DFA725275AF974DCC39ACA /* PXSourceListBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89B9B1BC5FBF674BB5F73C1ACE8CC242 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		93A5F26EE61E75BA02FBD6CC8901F37C /* PXSourceList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5551CC01801D22533680531E5818F2C /* PXSourceList-dummy.m */; };
+		960CB4D46E50FC800F90BBA71A519562 /* PXSourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CAE4B56BB673EAEB5A2A2CC2A2C2B4 /* PXSourceList.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C7EC7217CA7A6FECE7C53C7D80E4671 /* PXSourceListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 819904824DD45F8D2E83F9281F8698D7 /* PXSourceListItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29EC22A954603C31304541FA35B657F /* PXSourceListRuntimeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 68655F206C3B97B9F9D308A291F5B035 /* PXSourceListRuntimeAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA0D5AD52248B3CA816ADAA6E3BD8CA5 /* PXSourceListBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D364DEB4556C938A0C6A583F657E73B1 /* PXSourceListBadgeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B29DF4CD8656A873EE8F9D8642E57279 /* Pods-ALI-SchemaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A44457A0CE6CCC80E9FD602EA3263D8 /* Pods-ALI-SchemaTests-dummy.m */; };
+		C34BC664AD1D911AE74696BD9E9C3FB2 /* PXSourceListBadgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 539165925FC7B9910178B1DA8EEAD810 /* PXSourceListBadgeCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBC358DEB6112C414D832659DBD55F8F /* PXSourceListDelegateDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77163BD198A45E79A4E8ED5DA836726 /* PXSourceListDelegateDataSourceProxy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5DAB0B30284176266081BCBC75E9D22 /* PXSourceList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E13493D92790A7529FD4FD366A0C290 /* PXSourceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAED4122D76CBEEB34D607542B962780 /* PXSourceListPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6B4B89A3745B68F0DFB4DE3BBEEA25 /* PXSourceListPrivateConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB8D67386F09572AD0A37609067C4431 /* Pods-ALI-SchemaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88232FB0718B8B46F56EBE2C7E4753 /* Pods-ALI-SchemaUITests-dummy.m */; };
+		F2004D774986711FC949F97C71289846 /* PXSourceListRuntimeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 498F7F7C48D0733556F5B8733C7FEAF7 /* PXSourceListRuntimeAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BF39C265786349AA1E000EAE1635B9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E73C07B3FCEC38C5913A5D5F08A1135;
+			remoteInfo = PXSourceList;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		07DD14898959D43A4404FB7EA4389E1A /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaUITests.a"; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EBA80AAB439BFC53DAAD51F7B85F0F /* PXSourceListBadgeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListBadgeCell.h; path = PXSourceList/PXSourceListBadgeCell.h; sourceTree = "<group>"; };
+		09C68A78F2070A411879618AD7B8D038 /* PXSourceListTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListTableCellView.h; path = PXSourceList/PXSourceListTableCellView.h; sourceTree = "<group>"; };
+		0BD0917ED5FB12381760D968A38A96A9 /* PXSourceListDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDataSource.h; path = PXSourceList/PXSourceListDataSource.h; sourceTree = "<group>"; };
+		1E13493D92790A7529FD4FD366A0C290 /* PXSourceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceList.h; path = PXSourceList/PXSourceList.h; sourceTree = "<group>"; };
+		1F9584D046899582A23796E5AC6F665D /* PXSourceListTableCellView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListTableCellView.m; path = PXSourceList/PXSourceListTableCellView.m; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		3A44457A0CE6CCC80E9FD602EA3263D8 /* Pods-ALI-SchemaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALI-SchemaTests-dummy.m"; sourceTree = "<group>"; };
+		3A8D6ADC3C28372A59A770C16F68F0F3 /* PXSourceList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXSourceList.xcconfig; sourceTree = "<group>"; };
+		41976FB40E90897C2BF18C65FE827C89 /* PXSourceListDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDelegate.h; path = PXSourceList/PXSourceListDelegate.h; sourceTree = "<group>"; };
+		4245F8448E22A5F9BC74FE886BC84863 /* PXSourceListDelegateDataSourceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDelegateDataSourceProxy.h; path = PXSourceList/Internal/PXSourceListDelegateDataSourceProxy.h; sourceTree = "<group>"; };
 		48270ACEF3E7EA2C3D9316A7BABE4073 /* Pods-ALI-Schema-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-Schema-resources.sh"; sourceTree = "<group>"; };
+		498F7F7C48D0733556F5B8733C7FEAF7 /* PXSourceListRuntimeAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListRuntimeAdditions.h; path = PXSourceList/Internal/PXSourceListRuntimeAdditions.h; sourceTree = "<group>"; };
 		4B389CB4B87824D8073223F269A56E79 /* Pods-ALI-SchemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFAF13E8306F337E83E66696B3BE3FD /* PXSourceList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXSourceList-prefix.pch"; sourceTree = "<group>"; };
 		5166011AF7B93E446EA098DF351BB72D /* Pods-ALI-Schema-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-Schema-frameworks.sh"; sourceTree = "<group>"; };
+		539165925FC7B9910178B1DA8EEAD810 /* PXSourceListBadgeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeCell.m; path = PXSourceList/PXSourceListBadgeCell.m; sourceTree = "<group>"; };
+		5560640756FCB950B7B0FBFEA2323A11 /* libPods-ALI-SchemaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaTests.a"; path = "libPods-ALI-SchemaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C045DDEDCF94740C97D490D460D9308 /* Pods-ALI-SchemaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaUITests-frameworks.sh"; sourceTree = "<group>"; };
 		649013F676E62BF87F8C38DAD742F3EB /* Pods-ALI-SchemaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaUITests-resources.sh"; sourceTree = "<group>"; };
+		68655F206C3B97B9F9D308A291F5B035 /* PXSourceListRuntimeAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListRuntimeAdditions.m; path = PXSourceList/Internal/PXSourceListRuntimeAdditions.m; sourceTree = "<group>"; };
 		6A57FE729D358F67E62C5FCBBF70E736 /* Pods-ALI-Schema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-Schema.release.xcconfig"; sourceTree = "<group>"; };
 		764986DC9D7C7E89E93D2092F833BC62 /* Pods-ALI-SchemaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaTests-resources.sh"; sourceTree = "<group>"; };
 		7B20798AFA42197DF69E47D26913E85B /* Pods-ALI-SchemaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaTests-frameworks.sh"; sourceTree = "<group>"; };
 		7D0B47001C80BBFA8C373659023FAAFA /* Pods-ALI-SchemaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-SchemaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D1A0C80DCC10CC215B4C26AEEBAD16A /* Pods-ALI-SchemaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F5DA77DDEB9D438709CEADD364DA73D /* libPXSourceList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXSourceList.a; path = libPXSourceList.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC1FCA02A1959653A8054B48EBCC1E0 /* Pods-ALI-SchemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		838C9A0D39694EBFEB76893B38463440 /* libPods-ALI-SchemaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaTests.a"; path = "libPods-ALI-SchemaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819904824DD45F8D2E83F9281F8698D7 /* PXSourceListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListItem.h; path = PXSourceList/PXSourceListItem.h; sourceTree = "<group>"; };
 		8EA75E7F7B74626691931398294072E5 /* Pods-ALI-SchemaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-SchemaTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F12D73868019FCB145C5BD75D09C862 /* Pods-ALI-SchemaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-SchemaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A77163BD198A45E79A4E8ED5DA836726 /* PXSourceListDelegateDataSourceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListDelegateDataSourceProxy.m; path = PXSourceList/Internal/PXSourceListDelegateDataSourceProxy.m; sourceTree = "<group>"; };
 		AF27D2D102AA20C0B3F5CB7BD7B98EA4 /* Pods-ALI-Schema-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-Schema-acknowledgements.plist"; sourceTree = "<group>"; };
 		B02D0F518BDDC6F02A2E5CA4CBCC2844 /* Pods-ALI-SchemaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-SchemaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9CAE4B56BB673EAEB5A2A2CC2A2C2B4 /* PXSourceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceList.m; path = PXSourceList/PXSourceList.m; sourceTree = "<group>"; };
+		BECD010C0F0E166A2CB05C0B47462FD9 /* libPods-ALI-Schema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-Schema.a"; path = "libPods-ALI-Schema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DCD8B2546F946E80CA47C123736776 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5551CC01801D22533680531E5818F2C /* PXSourceList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXSourceList-dummy.m"; sourceTree = "<group>"; };
 		C62EC57092DBD01AF03EEBBA7C01CE99 /* Pods-ALI-Schema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-Schema.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6B4B89A3745B68F0DFB4DE3BBEEA25 /* PXSourceListPrivateConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListPrivateConstants.h; path = PXSourceList/Internal/PXSourceListPrivateConstants.h; sourceTree = "<group>"; };
 		CC88232FB0718B8B46F56EBE2C7E4753 /* Pods-ALI-SchemaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALI-SchemaUITests-dummy.m"; sourceTree = "<group>"; };
-		F1118B67DDD2B4C97FD2664AD211DA1B /* libPods-ALI-Schema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-Schema.a"; path = "libPods-ALI-Schema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D364DEB4556C938A0C6A583F657E73B1 /* PXSourceListBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeView.m; path = PXSourceList/PXSourceListBadgeView.m; sourceTree = "<group>"; };
+		D504D6BC35DFA725275AF974DCC39ACA /* PXSourceListBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListBadgeView.h; path = PXSourceList/PXSourceListBadgeView.h; sourceTree = "<group>"; };
+		DB27A047C64C89267F9B92EF198A833E /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaUITests.a"; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5B3F2C6279330C8A47CD0ECC72A79 /* PXSourceListItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListItem.m; path = PXSourceList/PXSourceListItem.m; sourceTree = "<group>"; };
 		F583959F724FE2A9F20815CA4B515995 /* Pods-ALI-Schema-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-Schema-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8E6A2C222CBE759315BC3C16AEAD4A0 /* Pods-ALI-Schema-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALI-Schema-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AADCD10537E553DDB88F6283A2AC2220 /* Frameworks */ = {
+		1D86F5D1C5697A3AB826B95CEECF612A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC2D04C96899618D70A93079F9F93EF /* Cocoa.framework in Frameworks */,
+				17BAFF43A7A5F6F031A4F3EA52BD9BE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557285FDB42E42584232A8652416F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E1FE9CCBA5893F5CFEA7059A048716 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +136,43 @@
 				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0C39639EA68DA2BCE189532AD2DFA36E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BECD010C0F0E166A2CB05C0B47462FD9 /* libPods-ALI-Schema.a */,
+				5560640756FCB950B7B0FBFEA2323A11 /* libPods-ALI-SchemaTests.a */,
+				DB27A047C64C89267F9B92EF198A833E /* libPods-ALI-SchemaUITests.a */,
+				7F5DA77DDEB9D438709CEADD364DA73D /* libPXSourceList.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F4B00A875C447311761E902E800292 /* PXSourceList */ = {
+			isa = PBXGroup;
+			children = (
+				1E13493D92790A7529FD4FD366A0C290 /* PXSourceList.h */,
+				B9CAE4B56BB673EAEB5A2A2CC2A2C2B4 /* PXSourceList.m */,
+				03EBA80AAB439BFC53DAAD51F7B85F0F /* PXSourceListBadgeCell.h */,
+				539165925FC7B9910178B1DA8EEAD810 /* PXSourceListBadgeCell.m */,
+				D504D6BC35DFA725275AF974DCC39ACA /* PXSourceListBadgeView.h */,
+				D364DEB4556C938A0C6A583F657E73B1 /* PXSourceListBadgeView.m */,
+				0BD0917ED5FB12381760D968A38A96A9 /* PXSourceListDataSource.h */,
+				41976FB40E90897C2BF18C65FE827C89 /* PXSourceListDelegate.h */,
+				4245F8448E22A5F9BC74FE886BC84863 /* PXSourceListDelegateDataSourceProxy.h */,
+				A77163BD198A45E79A4E8ED5DA836726 /* PXSourceListDelegateDataSourceProxy.m */,
+				819904824DD45F8D2E83F9281F8698D7 /* PXSourceListItem.h */,
+				DCB5B3F2C6279330C8A47CD0ECC72A79 /* PXSourceListItem.m */,
+				CB6B4B89A3745B68F0DFB4DE3BBEEA25 /* PXSourceListPrivateConstants.h */,
+				498F7F7C48D0733556F5B8733C7FEAF7 /* PXSourceListRuntimeAdditions.h */,
+				68655F206C3B97B9F9D308A291F5B035 /* PXSourceListRuntimeAdditions.m */,
+				09C68A78F2070A411879618AD7B8D038 /* PXSourceListTableCellView.h */,
+				1F9584D046899582A23796E5AC6F665D /* PXSourceListTableCellView.m */,
+				CA136B065FAC6305DD244EA6C831C11A /* Support Files */,
+			);
+			name = PXSourceList;
+			path = PXSourceList;
 			sourceTree = "<group>";
 		};
 		3346221F8CB5AF13F2AE0A93745E35A9 /* Pods-ALI-SchemaTests */ = {
@@ -118,19 +213,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				8258EAC6A17166BF60E0E497453CF0BE /* Products */,
+				F966E3093C22769D78F419C9CCC7E91B /* Pods */,
+				0C39639EA68DA2BCE189532AD2DFA36E /* Products */,
 				6DF8A9428EC5F3D36283230AA4A75CC3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8258EAC6A17166BF60E0E497453CF0BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F1118B67DDD2B4C97FD2664AD211DA1B /* libPods-ALI-Schema.a */,
-				838C9A0D39694EBFEB76893B38463440 /* libPods-ALI-SchemaTests.a */,
-				07DD14898959D43A4404FB7EA4389E1A /* libPods-ALI-SchemaUITests.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9D771AAAB5EEDC31A2F478CEE9A8CBA3 /* Pods-ALI-Schema */ = {
@@ -148,6 +234,17 @@
 			path = "Target Support Files/Pods-ALI-Schema";
 			sourceTree = "<group>";
 		};
+		CA136B065FAC6305DD244EA6C831C11A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D6ADC3C28372A59A770C16F68F0F3 /* PXSourceList.xcconfig */,
+				C5551CC01801D22533680531E5818F2C /* PXSourceList-dummy.m */,
+				4BFAF13E8306F337E83E66696B3BE3FD /* PXSourceList-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXSourceList";
+			sourceTree = "<group>";
+		};
 		D010CF92BD9895899DAFE40D3C923AC7 /* Pods-ALI-SchemaUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +260,54 @@
 			path = "Target Support Files/Pods-ALI-SchemaUITests";
 			sourceTree = "<group>";
 		};
+		F966E3093C22769D78F419C9CCC7E91B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30F4B00A875C447311761E902E800292 /* PXSourceList */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		776D6AC1AB4D7377FB9D10B46436E684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DAB0B30284176266081BCBC75E9D22 /* PXSourceList.h in Headers */,
+				67B10D8D8279BB03A841A468D79118E3 /* PXSourceListBadgeCell.h in Headers */,
+				856FD5DBDE370F6DAF720D94DE7CC1BF /* PXSourceListBadgeView.h in Headers */,
+				49DD603B9E0D424B72A43D8E2CF90DE9 /* PXSourceListDataSource.h in Headers */,
+				7B645B417113137359FE84F8717E4701 /* PXSourceListDelegate.h in Headers */,
+				371EF78AEDF0187169936ABB900C4959 /* PXSourceListDelegateDataSourceProxy.h in Headers */,
+				9C7EC7217CA7A6FECE7C53C7D80E4671 /* PXSourceListItem.h in Headers */,
+				EAED4122D76CBEEB34D607542B962780 /* PXSourceListPrivateConstants.h in Headers */,
+				F2004D774986711FC949F97C71289846 /* PXSourceListRuntimeAdditions.h in Headers */,
+				00962B1A8BF698CE69391F8C2DB91AEA /* PXSourceListTableCellView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1E73C07B3FCEC38C5913A5D5F08A1135 /* PXSourceList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71EEBEC5A1C6177B13A95DD95772858 /* Build configuration list for PBXNativeTarget "PXSourceList" */;
+			buildPhases = (
+				611257DF414D3066384EAB82967E3214 /* Sources */,
+				9557285FDB42E42584232A8652416F9F /* Frameworks */,
+				776D6AC1AB4D7377FB9D10B46436E684 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXSourceList;
+			productName = PXSourceList;
+			productReference = 7F5DA77DDEB9D438709CEADD364DA73D /* libPXSourceList.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2127B2C38C9BC3DB7272033234504CFD /* Pods-ALI-SchemaUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E60C7570B92F0816377D4C7E2E4605F /* Build configuration list for PBXNativeTarget "Pods-ALI-SchemaUITests" */;
@@ -179,23 +321,24 @@
 			);
 			name = "Pods-ALI-SchemaUITests";
 			productName = "Pods-ALI-SchemaUITests";
-			productReference = 07DD14898959D43A4404FB7EA4389E1A /* libPods-ALI-SchemaUITests.a */;
+			productReference = DB27A047C64C89267F9B92EF198A833E /* libPods-ALI-SchemaUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6C6DDA2B5BA43318A6A7B7438850EDE0 /* Pods-ALI-Schema */ = {
+		A46E94F2F20C48E11B409886BB2EE183 /* Pods-ALI-Schema */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFE4C0C0EFBCD532CFA92295658DCADA /* Build configuration list for PBXNativeTarget "Pods-ALI-Schema" */;
+			buildConfigurationList = 72E01191C62882DA03E49AE4B79BD005 /* Build configuration list for PBXNativeTarget "Pods-ALI-Schema" */;
 			buildPhases = (
-				004CC8AD3286A5AB548B6552FC8D2B6C /* Sources */,
-				AADCD10537E553DDB88F6283A2AC2220 /* Frameworks */,
+				7A6E97823ADC96FFF9C0402355A3839E /* Sources */,
+				1D86F5D1C5697A3AB826B95CEECF612A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D4B1DBCF342F26737B6B49C6B6D6F3AD /* PBXTargetDependency */,
 			);
 			name = "Pods-ALI-Schema";
 			productName = "Pods-ALI-Schema";
-			productReference = F1118B67DDD2B4C97FD2664AD211DA1B /* libPods-ALI-Schema.a */;
+			productReference = BECD010C0F0E166A2CB05C0B47462FD9 /* libPods-ALI-Schema.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		EC8330F1EE6E2A4AEAEC8C3E94F1D0D4 /* Pods-ALI-SchemaTests */ = {
@@ -211,7 +354,7 @@
 			);
 			name = "Pods-ALI-SchemaTests";
 			productName = "Pods-ALI-SchemaTests";
-			productReference = 838C9A0D39694EBFEB76893B38463440 /* libPods-ALI-SchemaTests.a */;
+			productReference = 5560640756FCB950B7B0FBFEA2323A11 /* libPods-ALI-SchemaTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -231,31 +374,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8258EAC6A17166BF60E0E497453CF0BE /* Products */;
+			productRefGroup = 0C39639EA68DA2BCE189532AD2DFA36E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C6DDA2B5BA43318A6A7B7438850EDE0 /* Pods-ALI-Schema */,
+				A46E94F2F20C48E11B409886BB2EE183 /* Pods-ALI-Schema */,
 				EC8330F1EE6E2A4AEAEC8C3E94F1D0D4 /* Pods-ALI-SchemaTests */,
 				2127B2C38C9BC3DB7272033234504CFD /* Pods-ALI-SchemaUITests */,
+				1E73C07B3FCEC38C5913A5D5F08A1135 /* PXSourceList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		004CC8AD3286A5AB548B6552FC8D2B6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50B2860431BBFFE14FCB24C8E8CA8873 /* Pods-ALI-Schema-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45DB91ACB0B8EC15A91C4296EAB41E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B29DF4CD8656A873EE8F9D8642E57279 /* Pods-ALI-SchemaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611257DF414D3066384EAB82967E3214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A5F26EE61E75BA02FBD6CC8901F37C /* PXSourceList-dummy.m in Sources */,
+				960CB4D46E50FC800F90BBA71A519562 /* PXSourceList.m in Sources */,
+				C34BC664AD1D911AE74696BD9E9C3FB2 /* PXSourceListBadgeCell.m in Sources */,
+				AA0D5AD52248B3CA816ADAA6E3BD8CA5 /* PXSourceListBadgeView.m in Sources */,
+				DBC358DEB6112C414D832659DBD55F8F /* PXSourceListDelegateDataSourceProxy.m in Sources */,
+				74CF56C8F8261B9B3334DD07941C623F /* PXSourceListItem.m in Sources */,
+				A29EC22A954603C31304541FA35B657F /* PXSourceListRuntimeAdditions.m in Sources */,
+				0B5138379C3EE7A7CF2CDF7F9DC80BBD /* PXSourceListTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6E97823ADC96FFF9C0402355A3839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05321719947AD4410E9EA1A65B18AE24 /* Pods-ALI-Schema-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,33 +428,17 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		0F7006CC2EA6302E6CCF54B7BAD63F1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A57FE729D358F67E62C5FCBBF70E736 /* Pods-ALI-Schema.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		D4B1DBCF342F26737B6B49C6B6D6F3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXSourceList;
+			target = 1E73C07B3FCEC38C5913A5D5F08A1135 /* PXSourceList */;
+			targetProxy = BF39C265786349AA1E000EAE1635B9A2 /* PBXContainerItemProxy */;
 		};
-		23B5131A29CA1ED7B2278D79C0B32E8C /* Release */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F054DF7CB0B8A4F53A00C3E512E5F86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0DCD8B2546F946E80CA47C123736776 /* Pods-ALI-SchemaUITests.release.xcconfig */;
 			buildSettings = {
@@ -308,7 +451,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -320,7 +463,7 @@
 			};
 			name = Release;
 		};
-		30B7CB027073C67DFBEF0C2782240A91 /* Debug */ = {
+		30F081E2A8507C56A57152EE25B4012E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FC1FCA02A1959653A8054B48EBCC1E0 /* Pods-ALI-SchemaUITests.debug.xcconfig */;
 			buildSettings = {
@@ -333,7 +476,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -345,7 +488,195 @@
 			};
 			name = Debug;
 		};
-		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
+		3140679507883695B08ACF385961393D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8D6ADC3C28372A59A770C16F68F0F3 /* PXSourceList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXSourceList/PXSourceList-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36086C644366AD5CADAC061BD15DE397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A57FE729D358F67E62C5FCBBF70E736 /* Pods-ALI-Schema.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		496757DC53DA4946623604E484FBA1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1A0C80DCC10CC215B4C26AEEBAD16A /* Pods-ALI-SchemaTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F7A74D1D0925CEBCED43F37C2C459B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62EC57092DBD01AF03EEBBA7C01CE99 /* Pods-ALI-Schema.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5489D15E0E90AD1FDD8823C115AC7B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8D6ADC3C28372A59A770C16F68F0F3 /* PXSourceList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXSourceList/PXSourceList-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		74C14F7E83491142F17BEB7EE6F4C06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B389CB4B87824D8073223F269A56E79 /* Pods-ALI-SchemaTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9420A7205B8F85520AF134F4EE25F7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F653E316AB5F825D3AD0CAE700E37071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +712,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -389,129 +720,14 @@
 			};
 			name = Debug;
 		};
-		97BC6FC4C0CF29366024091DC088D7A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D1A0C80DCC10CC215B4C26AEEBAD16A /* Pods-ALI-SchemaTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B724E748962FADDE800BEA23C86E6220 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B389CB4B87824D8073223F269A56E79 /* Pods-ALI-SchemaTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		ECA32128CB25039E2A75C312AEADA070 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C62EC57092DBD01AF03EEBBA7C01CE99 /* Pods-ALI-Schema.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
-				F6FC88CB717F413199C282718D2DC09F /* Release */,
+				F653E316AB5F825D3AD0CAE700E37071 /* Debug */,
+				9420A7205B8F85520AF134F4EE25F7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -519,8 +735,17 @@
 		4E60C7570B92F0816377D4C7E2E4605F /* Build configuration list for PBXNativeTarget "Pods-ALI-SchemaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30B7CB027073C67DFBEF0C2782240A91 /* Debug */,
-				23B5131A29CA1ED7B2278D79C0B32E8C /* Release */,
+				30F081E2A8507C56A57152EE25B4012E /* Debug */,
+				1F054DF7CB0B8A4F53A00C3E512E5F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E01191C62882DA03E49AE4B79BD005 /* Build configuration list for PBXNativeTarget "Pods-ALI-Schema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7A74D1D0925CEBCED43F37C2C459B7 /* Debug */,
+				36086C644366AD5CADAC061BD15DE397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -528,17 +753,17 @@
 		DC0CF4B3A281993B6B72B6F7DDE8FA30 /* Build configuration list for PBXNativeTarget "Pods-ALI-SchemaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B724E748962FADDE800BEA23C86E6220 /* Debug */,
-				97BC6FC4C0CF29366024091DC088D7A2 /* Release */,
+				74C14F7E83491142F17BEB7EE6F4C06E /* Debug */,
+				496757DC53DA4946623604E484FBA1D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFE4C0C0EFBCD532CFA92295658DCADA /* Build configuration list for PBXNativeTarget "Pods-ALI-Schema" */ = {
+		F71EEBEC5A1C6177B13A95DD95772858 /* Build configuration list for PBXNativeTarget "PXSourceList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECA32128CB25039E2A75C312AEADA070 /* Debug */,
-				0F7006CC2EA6302E6CCF54B7BAD63F1A /* Release */,
+				5489D15E0E90AD1FDD8823C115AC7B9B /* Debug */,
+				3140679507883695B08ACF385961393D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

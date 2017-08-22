@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A131371E1F4C073000E777DE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A131371D1F4C073000E777DE /* MainViewController.m */; };
 		A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */; };
 		A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE11F4BFFB90082BD34 /* main.m */; };
-		A1ACAEE51F4BFFB90082BD34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE41F4BFFB90082BD34 /* ViewController.m */; };
 		A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */; };
 		A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */; };
 		A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */; };
 		A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */; };
+		A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF3B6A1F4C19B90025A263 /* AddViewController.m */; };
+		A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */; };
 		B387DE8DBFAF248A3AD32FAE /* libPods-ALI-Schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */; };
 		C35E88287563E89D4B42951A /* libPods-ALI-SchemaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6CCDA491A10772EB003E8F /* libPods-ALI-SchemaTests.a */; };
 		C5A97A70E54BAC28E1014125 /* libPods-ALI-SchemaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D0A2A5D2ADD4935DAE31AB /* libPods-ALI-SchemaUITests.a */; };
@@ -44,12 +46,12 @@
 		55D0A2A5D2ADD4935DAE31AB /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6E7C7769B41723F94E994D /* Pods-ALI-SchemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A131371C1F4C073000E777DE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A131371D1F4C073000E777DE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALI-Schema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1ACAEE11F4BFFB90082BD34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1ACAEE31F4BFFB90082BD34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1ACAEE41F4BFFB90082BD34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1ACAEE91F4BFFB90082BD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1ACAEEB1F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,9 @@
 		A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaUITests.m; sourceTree = "<group>"; };
 		A1ACAF011F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF3B691F4C19B90025A263 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		A1EF3B6A1F4C19B90025A263 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 		CB9BF11E482929DD727E9D4E /* Pods-ALI-SchemaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaTests/Pods-ALI-SchemaTests.release.xcconfig"; sourceTree = "<group>"; };
 		D401AD59D99EF9CA4E490D6C /* Pods-ALI-Schema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-Schema.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-Schema/Pods-ALI-Schema.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +109,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A131371F1F4C073400E777DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */,
+				A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */,
+				A131371C1F4C073000E777DE /* MainViewController.h */,
+				A131371D1F4C073000E777DE /* MainViewController.m */,
+				A1EF3B691F4C19B90025A263 /* AddViewController.h */,
+				A1EF3B6A1F4C19B90025A263 /* AddViewController.m */,
+				A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A13137201F4C073C00E777DE /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
 		A1ACAED11F4BFFB90082BD34 = {
 			isa = PBXGroup;
 			children = (
@@ -129,12 +156,9 @@
 		A1ACAEDC1F4BFFB90082BD34 /* ALI-Schema */ = {
 			isa = PBXGroup;
 			children = (
-				A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */,
-				A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */,
-				A1ACAEE31F4BFFB90082BD34 /* ViewController.h */,
-				A1ACAEE41F4BFFB90082BD34 /* ViewController.m */,
+				A13137201F4C073C00E777DE /* User Interface */,
+				A131371F1F4C073400E777DE /* Classes */,
 				A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */,
-				A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */,
 				A1ACAEEB1F4BFFB90082BD34 /* Info.plist */,
 				A1ACAEE01F4BFFB90082BD34 /* Supporting Files */,
 			);
@@ -296,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */,
 				A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */,
 				A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */,
 			);
@@ -473,8 +498,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1ACAEE51F4BFFB90082BD34 /* ViewController.m in Sources */,
 				A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */,
+				A131371E1F4C073000E777DE /* MainViewController.m in Sources */,
+				A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */,
 				A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
