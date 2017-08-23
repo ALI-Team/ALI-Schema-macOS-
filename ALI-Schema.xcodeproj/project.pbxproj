@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A131371E1F4C073000E777DE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A131371D1F4C073000E777DE /* MainViewController.m */; };
+		A155E5991F4D665C00171235 /* schools.json in Resources */ = {isa = PBXBuildFile; fileRef = A155E5981F4D665C00171235 /* schools.json */; };
 		A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */; };
 		A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE11F4BFFB90082BD34 /* main.m */; };
 		A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE61F4BFFB90082BD34 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A131371C1F4C073000E777DE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A131371D1F4C073000E777DE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A155E5981F4D665C00171235 /* schools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schools.json; sourceTree = "<group>"; };
 		A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALI-Schema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		A1ACAEE01F4BFFB90082BD34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A155E5981F4D665C00171235 /* schools.json */,
 				A1ACAEE11F4BFFB90082BD34 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -323,6 +326,7 @@
 				A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */,
 				A1ACAEE71F4BFFB90082BD34 /* Assets.xcassets in Resources */,
 				A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */,
+				A155E5991F4D665C00171235 /* schools.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

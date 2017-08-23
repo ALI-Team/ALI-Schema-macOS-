@@ -7,6 +7,9 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="AddViewController">
             <connections>
+                <outlet property="classInput" destination="qAY-GG-nUz" id="Pbc-Ba-FRU"/>
+                <outlet property="favoriteSwitch" destination="cpd-za-U7a" id="DLh-Jn-X4B"/>
+                <outlet property="schoolList" destination="Kjg-Me-Fyk" id="4Gh-V2-23y"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
@@ -26,15 +29,10 @@
                 </textField>
                 <comboBox verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kjg-Me-Fyk">
                     <rect key="frame" x="111" y="122" width="351" height="26"/>
-                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="Yvs-hS-dI5">
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" numberOfVisibleItems="5" id="Yvs-hS-dI5">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        <objectValues>
-                            <string>Item 1</string>
-                            <string>Item 2</string>
-                            <string>Item 3</string>
-                        </objectValues>
                     </comboBoxCell>
                 </comboBox>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="751" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtc-1o-etL">
@@ -70,6 +68,9 @@
 DQ
 </string>
                     </buttonCell>
+                    <connections>
+                        <action selector="add:" target="-2" id="Aus-bF-fY4"/>
+                    </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xLd-8G-lff">
                     <rect key="frame" x="318" y="13" width="82" height="32"/>
@@ -98,7 +99,7 @@ Gw
                 </textField>
                 <button verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="cpd-za-U7a">
                     <rect key="frame" x="109" y="67" width="18" height="18"/>
-                    <buttonCell key="cell" type="check" title="Favourite" bezelStyle="regularSquare" imagePosition="only" alignment="center" state="on" inset="2" id="OAn-Dr-0IO">
+                    <buttonCell key="cell" type="check" title="Favourite" bezelStyle="regularSquare" imagePosition="only" alignment="center" inset="2" id="OAn-Dr-0IO">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>

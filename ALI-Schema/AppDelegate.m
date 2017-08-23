@@ -16,6 +16,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+#warning Clears User Defaults.
+    /* NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
+     [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];*/
 }
 
 

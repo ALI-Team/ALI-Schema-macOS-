@@ -10,4 +10,12 @@
 
 @interface AddViewController : NSViewController
 
+@property (weak) IBOutlet NSComboBox *schoolList;
+@property (weak) IBOutlet NSTextField *classInput;
+@property (weak) IBOutlet NSButton *favoriteSwitch;
+
+@property id parent;
+
+@property (strong, nonatomic) NSArray *schools;
+
 @end

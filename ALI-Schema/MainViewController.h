@@ -17,6 +17,11 @@
 
 @property (strong, nonatomic) AddViewController *addView;
 
+@property (strong, nonatomic) NSMutableArray *scheduleList;
+@property (strong, nonatomic) NSMutableArray *sourceListItems;
+
 - (IBAction)addSchool:(id)sender;
+
+- (void)reloadSidebar;
 
 @end
