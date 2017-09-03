@@ -14,11 +14,15 @@
 
 @implementation MainViewController
 
+#pragma mark STARTUPq
+
 - (void)viewWillAppear {
     [super viewWillAppear];
     
     [self reloadSidebar];
 }
+
+#pragma mark SIDEBAR
 
 - (NSUInteger)sourceList:(PXSourceList *)sourceList numberOfChildrenOfItem:(id)item {
     if (item)
@@ -41,6 +45,22 @@
 
 - (BOOL)sourceList:(PXSourceList *)aSourceList isItemExpandable:(id)item {
     return [[item identifier] isEqualToString:@"school"];
+}
+
+- (void)sourceListSelectionDidChange:(NSNotification *)notification {
+    
+    NSInteger sectionIndex = [self.sourceList rowForItem:[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]]];
+    NSInteger rowIndex = self.sourceList.selectedRow - sectionIndex - 1;
+    
+    NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
+    NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
+    
+    if ([currentFavorite isEqualTo:selectedItemIndex]) {
+        [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
+    } else {
+        [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
+    }
+    
 }
 
 - (IBAction)addSchool:(id)sender {
@@ -103,6 +123,32 @@
     }
     
     [self.sourceList reloadData];
+}
+
+- (IBAction)toggleFavourites:(id)sender {
+    
+    NSInteger sectionIndex = [self.sourceList rowForItem:[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]]];
+    NSInteger rowIndex = self.sourceList.selectedRow - sectionIndex - 1;
+    
+    NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
+    NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
+    
+    //    NSLog(@"s %i r %i", currentFavorite.section, currentFavorite.item);
+    
+    if ([currentFavorite isEqualTo:selectedItemIndex]) {
+        
+        [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"favorite"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
+        
+    } else {
+        
+        [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
+        
+        [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:selectedItemIndex] forKey:@"favorite"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
 }
 
 @end

@@ -319,6 +319,9 @@
                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
+                                                                <connections>
+                                                                    <action selector="toggleFavourites:" target="IQy-7h-XYe" id="xUG-OC-Ff1"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -373,6 +376,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="favouritesButton" destination="mpu-SQ-mq4" id="6uo-YR-Tee"/>
                         <outlet property="sourceList" destination="KMv-rg-iIm" id="Miv-w6-qvD"/>
                     </connections>
                 </viewController>

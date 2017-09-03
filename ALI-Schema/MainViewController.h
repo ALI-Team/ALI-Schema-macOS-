@@ -20,6 +20,8 @@
 @property (strong, nonatomic) NSMutableArray *scheduleList;
 @property (strong, nonatomic) NSMutableArray *sourceListItems;
 
+@property (weak) IBOutlet NSButton *favouritesButton;
+
 - (IBAction)addSchool:(id)sender;
 
 - (void)reloadSidebar;
