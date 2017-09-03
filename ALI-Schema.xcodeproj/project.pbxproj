@@ -120,7 +120,6 @@
 				A131371D1F4C073000E777DE /* MainViewController.m */,
 				A1EF3B691F4C19B90025A263 /* AddViewController.h */,
 				A1EF3B6A1F4C19B90025A263 /* AddViewController.m */,
-				A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -129,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */,
+				A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";

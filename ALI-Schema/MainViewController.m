@@ -51,9 +51,41 @@
     [self presentViewControllerAsSheet:self.addView];
 }
 
+- (IBAction)removeSchool:(id)sender {
+    
+    NSString *schoolName = [[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title];
+    NSString *className = [[self.sourceList itemAtRow:self.sourceList.selectedRow] title];
+    NSMutableArray *classArray = nil;
+    int schoolIndex = -1;
+    
+    for (NSDictionary *school in self.scheduleList)  {
+        if ([school[@"namn"] isEqualToString:schoolName]) {
+            schoolIndex = (int)[self.scheduleList indexOfObject:school];
+            classArray = [school[@"classList"] mutableCopy];
+            [classArray removeObject:className];
+        }
+    }
+    
+    if (schoolIndex > -1) {
+        if (classArray.count > 0) {
+            NSMutableDictionary *schoolDict = [self.scheduleList[schoolIndex] mutableCopy];
+            [schoolDict setObject:classArray forKey:@"classList"];
+            
+            [self.scheduleList replaceObjectAtIndex:schoolIndex withObject:schoolDict];
+        } else {
+            [self.scheduleList removeObjectAtIndex:schoolIndex];
+        }
+        
+        [[NSUserDefaults standardUserDefaults] setObject:self.scheduleList forKey:@"scheduleList"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [self reloadSidebar];
+    }
+}
+
 - (void)reloadSidebar {
     
-    self.scheduleList = [[NSUserDefaults standardUserDefaults] objectForKey:@"scheduleList"];
+    self.scheduleList = [[[NSUserDefaults standardUserDefaults] objectForKey:@"scheduleList"] mutableCopy];
     self.sourceListItems = @[].mutableCopy;
     
     for (NSDictionary *school in self.scheduleList) {
