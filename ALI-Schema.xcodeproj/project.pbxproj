@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A131371E1F4C073000E777DE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A131371D1F4C073000E777DE /* MainViewController.m */; };
+		A1415C431F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1415C401F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.m */; };
+		A1415C441F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1415C421F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.m */; };
+		A1484DA61F7858270058EEC9 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1484DA51F7858270058EEC9 /* MainWindowController.m */; };
 		A155E5991F4D665C00171235 /* schools.json in Resources */ = {isa = PBXBuildFile; fileRef = A155E5981F4D665C00171235 /* schools.json */; };
 		A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */; };
 		A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEE11F4BFFB90082BD34 /* main.m */; };
@@ -15,6 +18,7 @@
 		A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */; };
 		A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */; };
 		A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */; };
+		A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2B9201F85D98C00259DC9 /* DMSplitView.m */; };
 		A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF3B6A1F4C19B90025A263 /* AddViewController.m */; };
 		A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */; };
 		B387DE8DBFAF248A3AD32FAE /* libPods-ALI-Schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */; };
@@ -49,6 +53,12 @@
 		814A930C45CDEDA5EF130001 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALI-SchemaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALI-SchemaUITests/Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A131371C1F4C073000E777DE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A131371D1F4C073000E777DE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A1415C3F1F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAdaptiveSpaceItem.h; sourceTree = "<group>"; };
+		A1415C401F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAdaptiveSpaceItem.m; sourceTree = "<group>"; };
+		A1415C411F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAdaptiveSpaceItemView.h; sourceTree = "<group>"; };
+		A1415C421F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAdaptiveSpaceItemView.m; sourceTree = "<group>"; };
+		A1484DA41F7858270058EEC9 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		A1484DA51F7858270058EEC9 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		A155E5981F4D665C00171235 /* schools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schools.json; sourceTree = "<group>"; };
 		A1ACAEDA1F4BFFB90082BD34 /* ALI-Schema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALI-Schema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +73,8 @@
 		A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaUITests.m; sourceTree = "<group>"; };
 		A1ACAF011F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D2B9201F85D98C00259DC9 /* DMSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSplitView.m; sourceTree = "<group>"; };
+		A1D2B9211F85D98C00259DC9 /* DMSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSplitView.h; sourceTree = "<group>"; };
 		A1EF3B691F4C19B90025A263 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		A1EF3B6A1F4C19B90025A263 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
@@ -116,6 +128,8 @@
 			children = (
 				A1ACAEDD1F4BFFB90082BD34 /* AppDelegate.h */,
 				A1ACAEDE1F4BFFB90082BD34 /* AppDelegate.m */,
+				A1484DA41F7858270058EEC9 /* MainWindowController.h */,
+				A1484DA51F7858270058EEC9 /* MainWindowController.m */,
 				A131371C1F4C073000E777DE /* MainViewController.h */,
 				A131371D1F4C073000E777DE /* MainViewController.m */,
 				A1EF3B691F4C19B90025A263 /* AddViewController.h */,
@@ -131,6 +145,17 @@
 				A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */,
 			);
 			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		A1415C3E1F62D0D900B1B7C2 /* TAAdaptiveSpaceItem */ = {
+			isa = PBXGroup;
+			children = (
+				A1415C3F1F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.h */,
+				A1415C401F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.m */,
+				A1415C411F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.h */,
+				A1415C421F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.m */,
+			);
+			path = TAAdaptiveSpaceItem;
 			sourceTree = "<group>";
 		};
 		A1ACAED11F4BFFB90082BD34 = {
@@ -170,6 +195,8 @@
 		A1ACAEE01F4BFFB90082BD34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1D2B91F1F85D98C00259DC9 /* DMSplitView */,
+				A1415C3E1F62D0D900B1B7C2 /* TAAdaptiveSpaceItem */,
 				A155E5981F4D665C00171235 /* schools.json */,
 				A1ACAEE11F4BFFB90082BD34 /* main.m */,
 			);
@@ -192,6 +219,15 @@
 				A1ACAF011F4BFFB90082BD34 /* Info.plist */,
 			);
 			path = "ALI-SchemaUITests";
+			sourceTree = "<group>";
+		};
+		A1D2B91F1F85D98C00259DC9 /* DMSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				A1D2B9201F85D98C00259DC9 /* DMSplitView.m */,
+				A1D2B9211F85D98C00259DC9 /* DMSplitView.h */,
+			);
+			path = DMSplitView;
 			sourceTree = "<group>";
 		};
 		D0DDDE8B7831B0FF0056607E /* Frameworks */ = {
@@ -276,7 +312,7 @@
 		A1ACAED21F4BFFB90082BD34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "ALI-Team";
 				TargetAttributes = {
 					A1ACAED91F4BFFB90082BD34 = {
@@ -502,10 +538,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */,
 				A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */,
 				A131371E1F4C073000E777DE /* MainViewController.m in Sources */,
 				A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */,
+				A1484DA61F7858270058EEC9 /* MainWindowController.m in Sources */,
 				A1ACAEDF1F4BFFB90082BD34 /* AppDelegate.m in Sources */,
+				A1415C431F62D0D900B1B7C2 /* TAAdaptiveSpaceItem.m in Sources */,
+				A1415C441F62D0D900B1B7C2 /* TAAdaptiveSpaceItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +602,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -570,7 +612,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -610,7 +656,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -618,7 +666,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

@@ -14,12 +14,17 @@
 
 @implementation MainViewController
 
-#pragma mark STARTUPq
+#pragma mark STARTUP
 
 - (void)viewWillAppear {
     [super viewWillAppear];
     
+    self.view.window.titleVisibility = NSWindowTitleHidden;
+    
     [self reloadSidebar];
+    
+    [self.sidebarSplitView setMinSize:250 ofSubviewAtIndex:0];
+    [self.sidebarSplitView setMaxSize:250 ofSubviewAtIndex:0];
 }
 
 #pragma mark SIDEBAR
@@ -149,6 +154,22 @@
         [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:selectedItemIndex] forKey:@"favorite"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
+}
+
+- (void)toggleSidebar:(id)sender {
+    [self.sidebarSplitView collapseOrExpandSubview:self.sidebarPlaceholder animated:true];
+}
+
+- (BOOL)splitView:(NSSplitView *)splitView canCollapseSubview:(NSView *)subview {
+    return true;
+}
+
+- (BOOL)splitView:(NSSplitView *)splitView shouldHideDividerAtIndex:(NSInteger)dividerIndex {
+    return true;
+}
+
+- (NSRect)splitView:(NSSplitView *)splitView effectiveRect:(NSRect)proposedEffectiveRect forDrawnRect:(NSRect)drawnRect ofDividerAtIndex:(NSInteger)dividerIndex {
+    return NSZeroRect;
 }
 
 @end

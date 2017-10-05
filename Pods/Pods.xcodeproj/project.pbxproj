@@ -61,7 +61,7 @@
 		4BFAF13E8306F337E83E66696B3BE3FD /* PXSourceList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXSourceList-prefix.pch"; sourceTree = "<group>"; };
 		5166011AF7B93E446EA098DF351BB72D /* Pods-ALI-Schema-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-Schema-frameworks.sh"; sourceTree = "<group>"; };
 		539165925FC7B9910178B1DA8EEAD810 /* PXSourceListBadgeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeCell.m; path = PXSourceList/PXSourceListBadgeCell.m; sourceTree = "<group>"; };
-		5560640756FCB950B7B0FBFEA2323A11 /* libPods-ALI-SchemaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaTests.a"; path = "libPods-ALI-SchemaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5560640756FCB950B7B0FBFEA2323A11 /* libPods-ALI-SchemaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-SchemaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C045DDEDCF94740C97D490D460D9308 /* Pods-ALI-SchemaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaUITests-frameworks.sh"; sourceTree = "<group>"; };
 		649013F676E62BF87F8C38DAD742F3EB /* Pods-ALI-SchemaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaUITests-resources.sh"; sourceTree = "<group>"; };
 		68655F206C3B97B9F9D308A291F5B035 /* PXSourceListRuntimeAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListRuntimeAdditions.m; path = PXSourceList/Internal/PXSourceListRuntimeAdditions.m; sourceTree = "<group>"; };
@@ -70,17 +70,17 @@
 		7B20798AFA42197DF69E47D26913E85B /* Pods-ALI-SchemaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALI-SchemaTests-frameworks.sh"; sourceTree = "<group>"; };
 		7D0B47001C80BBFA8C373659023FAAFA /* Pods-ALI-SchemaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-SchemaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D1A0C80DCC10CC215B4C26AEEBAD16A /* Pods-ALI-SchemaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaTests.release.xcconfig"; sourceTree = "<group>"; };
-		7F5DA77DDEB9D438709CEADD364DA73D /* libPXSourceList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXSourceList.a; path = libPXSourceList.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5DA77DDEB9D438709CEADD364DA73D /* libPXSourceList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXSourceList.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC1FCA02A1959653A8054B48EBCC1E0 /* Pods-ALI-SchemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		819904824DD45F8D2E83F9281F8698D7 /* PXSourceListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListItem.h; path = PXSourceList/PXSourceListItem.h; sourceTree = "<group>"; };
 		8EA75E7F7B74626691931398294072E5 /* Pods-ALI-SchemaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-SchemaTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F12D73868019FCB145C5BD75D09C862 /* Pods-ALI-SchemaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-SchemaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A77163BD198A45E79A4E8ED5DA836726 /* PXSourceListDelegateDataSourceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListDelegateDataSourceProxy.m; path = PXSourceList/Internal/PXSourceListDelegateDataSourceProxy.m; sourceTree = "<group>"; };
 		AF27D2D102AA20C0B3F5CB7BD7B98EA4 /* Pods-ALI-Schema-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALI-Schema-acknowledgements.plist"; sourceTree = "<group>"; };
 		B02D0F518BDDC6F02A2E5CA4CBCC2844 /* Pods-ALI-SchemaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-SchemaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B9CAE4B56BB673EAEB5A2A2CC2A2C2B4 /* PXSourceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceList.m; path = PXSourceList/PXSourceList.m; sourceTree = "<group>"; };
-		BECD010C0F0E166A2CB05C0B47462FD9 /* libPods-ALI-Schema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-Schema.a"; path = "libPods-ALI-Schema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECD010C0F0E166A2CB05C0B47462FD9 /* libPods-ALI-Schema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-Schema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DCD8B2546F946E80CA47C123736776 /* Pods-ALI-SchemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-SchemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5551CC01801D22533680531E5818F2C /* PXSourceList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXSourceList-dummy.m"; sourceTree = "<group>"; };
 		C62EC57092DBD01AF03EEBBA7C01CE99 /* Pods-ALI-Schema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALI-Schema.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		CC88232FB0718B8B46F56EBE2C7E4753 /* Pods-ALI-SchemaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALI-SchemaUITests-dummy.m"; sourceTree = "<group>"; };
 		D364DEB4556C938A0C6A583F657E73B1 /* PXSourceListBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeView.m; path = PXSourceList/PXSourceListBadgeView.m; sourceTree = "<group>"; };
 		D504D6BC35DFA725275AF974DCC39ACA /* PXSourceListBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListBadgeView.h; path = PXSourceList/PXSourceListBadgeView.h; sourceTree = "<group>"; };
-		DB27A047C64C89267F9B92EF198A833E /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALI-SchemaUITests.a"; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB27A047C64C89267F9B92EF198A833E /* libPods-ALI-SchemaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALI-SchemaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB5B3F2C6279330C8A47CD0ECC72A79 /* PXSourceListItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListItem.m; path = PXSourceList/PXSourceListItem.m; sourceTree = "<group>"; };
 		F583959F724FE2A9F20815CA4B515995 /* Pods-ALI-Schema-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALI-Schema-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8E6A2C222CBE759315BC3C16AEAD4A0 /* Pods-ALI-Schema-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALI-Schema-dummy.m"; sourceTree = "<group>"; };
@@ -171,7 +171,6 @@
 				1F9584D046899582A23796E5AC6F665D /* PXSourceListTableCellView.m */,
 				CA136B065FAC6305DD244EA6C831C11A /* Support Files */,
 			);
-			name = PXSourceList;
 			path = PXSourceList;
 			sourceTree = "<group>";
 		};
@@ -364,7 +363,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -645,19 +644,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -685,20 +694,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",

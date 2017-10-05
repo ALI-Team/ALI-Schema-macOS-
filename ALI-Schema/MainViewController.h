@@ -10,8 +10,9 @@
 
 #import "PXSourceList.h"
 #import "AddViewController.h"
+#import "DMSplitView.h"
 
-@interface MainViewController : NSViewController <PXSourceListDelegate, PXSourceListDataSource>
+@interface MainViewController : NSViewController <PXSourceListDelegate, PXSourceListDataSource, NSSplitViewDelegate>
 
 @property (strong) IBOutlet PXSourceList *sourceList;
 
@@ -21,6 +22,8 @@
 @property (strong, nonatomic) NSMutableArray *sourceListItems;
 
 @property (weak) IBOutlet NSButton *favouritesButton;
+@property (weak) IBOutlet NSView *sidebarPlaceholder;
+@property (weak) IBOutlet DMSplitView *sidebarSplitView;
 
 - (IBAction)addSchool:(id)sender;
 
