@@ -68,7 +68,7 @@
                 [existingSchool setValue:schoolClassList forKey:@"classList"];
                 [scheduleArray replaceObjectAtIndex:schoolIndex withObject:existingSchool];
             } else {
-                [scheduleArray addObject:@{@"namn":currentSchool[@"namn"], @"classList":@[self.classInput.stringValue].mutableCopy}];
+                [scheduleArray addObject:@{@"namn":currentSchool[@"namn"], @"id":currentSchool[@"id"], @"classList":@[self.classInput.stringValue].mutableCopy}];
             }
             
             [[NSUserDefaults standardUserDefaults] setObject:scheduleArray forKey:@"scheduleList"];

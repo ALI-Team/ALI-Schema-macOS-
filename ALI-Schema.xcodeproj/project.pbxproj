@@ -18,6 +18,10 @@
 		A1ACAEEA1F4BFFB90082BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ACAEE81F4BFFB90082BD34 /* Main.storyboard */; };
 		A1ACAEF51F4BFFB90082BD34 /* ALI_SchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEF41F4BFFB90082BD34 /* ALI_SchemaTests.m */; };
 		A1ACAF001F4BFFB90082BD34 /* ALI_SchemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */; };
+		A1C330A01F86DB8000A4BB36 /* OTFileCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C330981F86DB4700A4BB36 /* OTFileCacheManager.m */; };
+		A1C330A11F86DB8400A4BB36 /* OTWebImageDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3309E1F86DB4700A4BB36 /* OTWebImageDownloadRequest.m */; };
+		A1C330A21F86DB8400A4BB36 /* NSImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3309F1F86DB4700A4BB36 /* NSImageView+WebCache.m */; };
+		A1C330A31F86DB8800A4BB36 /* OTHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3309D1F86DB4700A4BB36 /* OTHTTPRequest.m */; };
 		A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2B9201F85D98C00259DC9 /* DMSplitView.m */; };
 		A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF3B6A1F4C19B90025A263 /* AddViewController.m */; };
 		A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */; };
@@ -73,6 +77,14 @@
 		A1ACAEFB1F4BFFB90082BD34 /* ALI-SchemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALI-SchemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ACAEFF1F4BFFB90082BD34 /* ALI_SchemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALI_SchemaUITests.m; sourceTree = "<group>"; };
 		A1ACAF011F4BFFB90082BD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C330971F86DB4700A4BB36 /* OTFileCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFileCacheManager.h; sourceTree = "<group>"; };
+		A1C330981F86DB4700A4BB36 /* OTFileCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTFileCacheManager.m; sourceTree = "<group>"; };
+		A1C330991F86DB4700A4BB36 /* OTWebImageDownloadRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTWebImageDownloadRequest.h; sourceTree = "<group>"; };
+		A1C3309A1F86DB4700A4BB36 /* NSImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImageView+WebCache.h"; sourceTree = "<group>"; };
+		A1C3309C1F86DB4700A4BB36 /* OTHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHTTPRequest.h; sourceTree = "<group>"; };
+		A1C3309D1F86DB4700A4BB36 /* OTHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHTTPRequest.m; sourceTree = "<group>"; };
+		A1C3309E1F86DB4700A4BB36 /* OTWebImageDownloadRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTWebImageDownloadRequest.m; sourceTree = "<group>"; };
+		A1C3309F1F86DB4700A4BB36 /* NSImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+WebCache.m"; sourceTree = "<group>"; };
 		A1D2B9201F85D98C00259DC9 /* DMSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSplitView.m; sourceTree = "<group>"; };
 		A1D2B9211F85D98C00259DC9 /* DMSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSplitView.h; sourceTree = "<group>"; };
 		A1EF3B691F4C19B90025A263 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
@@ -195,6 +207,7 @@
 		A1ACAEE01F4BFFB90082BD34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1C330951F86DB4700A4BB36 /* OTWebImage */,
 				A1D2B91F1F85D98C00259DC9 /* DMSplitView */,
 				A1415C3E1F62D0D900B1B7C2 /* TAAdaptiveSpaceItem */,
 				A155E5981F4D665C00171235 /* schools.json */,
@@ -219,6 +232,37 @@
 				A1ACAF011F4BFFB90082BD34 /* Info.plist */,
 			);
 			path = "ALI-SchemaUITests";
+			sourceTree = "<group>";
+		};
+		A1C330951F86DB4700A4BB36 /* OTWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A1C330961F86DB4700A4BB36 /* OTFileCacheManager */,
+				A1C330991F86DB4700A4BB36 /* OTWebImageDownloadRequest.h */,
+				A1C3309A1F86DB4700A4BB36 /* NSImageView+WebCache.h */,
+				A1C3309B1F86DB4700A4BB36 /* OTHTTPRequest */,
+				A1C3309E1F86DB4700A4BB36 /* OTWebImageDownloadRequest.m */,
+				A1C3309F1F86DB4700A4BB36 /* NSImageView+WebCache.m */,
+			);
+			path = OTWebImage;
+			sourceTree = "<group>";
+		};
+		A1C330961F86DB4700A4BB36 /* OTFileCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1C330971F86DB4700A4BB36 /* OTFileCacheManager.h */,
+				A1C330981F86DB4700A4BB36 /* OTFileCacheManager.m */,
+			);
+			path = OTFileCacheManager;
+			sourceTree = "<group>";
+		};
+		A1C3309B1F86DB4700A4BB36 /* OTHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3309C1F86DB4700A4BB36 /* OTHTTPRequest.h */,
+				A1C3309D1F86DB4700A4BB36 /* OTHTTPRequest.m */,
+			);
+			path = OTHTTPRequest;
 			sourceTree = "<group>";
 		};
 		A1D2B91F1F85D98C00259DC9 /* DMSplitView */ = {
@@ -538,6 +582,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C330A31F86DB8800A4BB36 /* OTHTTPRequest.m in Sources */,
+				A1C330A11F86DB8400A4BB36 /* OTWebImageDownloadRequest.m in Sources */,
+				A1C330A21F86DB8400A4BB36 /* NSImageView+WebCache.m in Sources */,
+				A1C330A01F86DB8000A4BB36 /* OTFileCacheManager.m in Sources */,
 				A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */,
 				A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */,
 				A131371E1F4C073000E777DE /* MainViewController.m in Sources */,

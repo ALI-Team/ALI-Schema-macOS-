@@ -217,19 +217,17 @@
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="J76-Hd-yY6"/>
                                 <toolbarItem implicitItemIdentifier="BA97B1E6-537E-47B2-99B7-971280F69B8F" label="Custom View" paletteLabel="Custom View" id="APN-5e-q86">
                                     <nil key="toolTip"/>
-                                    <size key="minSize" width="100" height="28"/>
-                                    <size key="maxSize" width="337" height="28"/>
+                                    <size key="minSize" width="140" height="24"/>
+                                    <size key="maxSize" width="140" height="28"/>
                                     <segmentedControl key="view" verticalHuggingPriority="750" id="5Kf-hU-zfc">
-                                        <rect key="frame" x="0.0" y="14" width="337" height="28"/>
+                                        <rect key="frame" x="0.0" y="14" width="140" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="selectOne" id="DjY-DM-siW">
+                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="DjY-DM-siW">
                                             <font key="font" metaFont="system"/>
                                             <segments>
-                                                <segment label="Måndag"/>
-                                                <segment label="Tisdag" selected="YES" tag="1"/>
-                                                <segment label="Onsdag"/>
-                                                <segment label="Torsdag"/>
-                                                <segment label="Fredag"/>
+                                                <segment image="NSGoBackTemplate"/>
+                                                <segment label="Vecka 38" tag="1"/>
+                                                <segment image="NSGoForwardTemplate"/>
                                             </segments>
                                         </segmentedCell>
                                     </segmentedControl>
@@ -254,9 +252,8 @@
                             </allowedToolbarItems>
                             <defaultToolbarItems>
                                 <toolbarItem reference="57e-jq-zy8"/>
-                                <toolbarItem reference="4pF-4A-L96"/>
-                                <toolbarItem reference="APN-5e-q86"/>
                                 <toolbarItem reference="J76-Hd-yY6"/>
+                                <toolbarItem reference="APN-5e-q86"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -282,24 +279,24 @@
                             <splitView arrangesAllSubviews="NO" dividerStyle="thin" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tma-xf-wkM" customClass="DMSplitView">
                                 <rect key="frame" x="0.0" y="0.0" width="606" height="406"/>
                                 <subviews>
-                                    <customView id="NGs-nJ-Hlm">
+                                    <customView misplaced="YES" id="NGs-nJ-Hlm">
                                         <rect key="frame" x="0.0" y="0.0" width="299" height="406"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <subviews>
                                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="24" horizontalPageScroll="10" verticalLineScroll="24" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m6-Dt-0nv">
-                                                <rect key="frame" x="0.0" y="25" width="299" height="381"/>
+                                                <rect key="frame" x="0.0" y="25" width="605" height="381"/>
                                                 <clipView key="contentView" drawsBackground="NO" id="THp-lX-VLO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="299" height="381"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="605" height="381"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" indentationPerLevel="16" outlineTableColumn="hlf-D0-p7H" id="KMv-rg-iIm" customClass="PXSourceList">
-                                                            <rect key="frame" x="0.0" y="0.0" width="299" height="381"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="605" height="381"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <size key="intercellSpacing" width="3" height="0.0"/>
                                                             <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                             <tableColumns>
-                                                                <tableColumn identifier="" width="296" minWidth="16" maxWidth="1000" id="hlf-D0-p7H">
+                                                                <tableColumn identifier="" width="602" minWidth="16" maxWidth="1000" id="hlf-D0-p7H">
                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                         <font key="font" metaFont="smallSystem"/>
                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -331,10 +328,10 @@
                                                 </scroller>
                                             </scrollView>
                                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="ML9-PM-yC5">
-                                                <rect key="frame" x="0.0" y="0.0" width="299" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="605" height="25"/>
                                                 <subviews>
                                                     <visualEffectView appearanceType="vibrantDark" blendingMode="behindWindow" material="light" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="XQ2-6g-Q6e">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="605" height="25"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Ew-oz-UsC">
                                                                 <rect key="frame" x="3" y="3" width="19" height="19"/>
@@ -365,7 +362,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mpu-SQ-mq4">
-                                                                <rect key="frame" x="277" y="3" width="19" height="19"/>
+                                                                <rect key="frame" x="583" y="3" width="19" height="19"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="19" id="gr3-9a-IQX"/>
                                                                     <constraint firstAttribute="height" constant="19" id="pw5-xO-FJN"/>
@@ -413,9 +410,21 @@
                                             <constraint firstAttribute="bottom" secondItem="2m6-Dt-0nv" secondAttribute="bottom" constant="25" id="wfh-Qd-hB2"/>
                                         </constraints>
                                     </customView>
-                                    <customView fixedFrame="YES" id="jgK-bH-x10">
+                                    <customView misplaced="YES" id="jgK-bH-x10">
                                         <rect key="frame" x="300" y="0.0" width="306" height="406"/>
                                         <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x8Z-1e-sRT">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="406"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="TpC-1M-W5E"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="x8Z-1e-sRT" firstAttribute="top" secondItem="jgK-bH-x10" secondAttribute="top" id="1NR-jd-kMw"/>
+                                            <constraint firstAttribute="trailing" secondItem="x8Z-1e-sRT" secondAttribute="trailing" id="Oq8-qO-5ZB"/>
+                                            <constraint firstAttribute="bottom" secondItem="x8Z-1e-sRT" secondAttribute="bottom" id="YuL-Dg-eMg"/>
+                                            <constraint firstItem="x8Z-1e-sRT" firstAttribute="leading" secondItem="jgK-bH-x10" secondAttribute="leading" id="uGd-nl-z6J"/>
+                                        </constraints>
                                     </customView>
                                 </subviews>
                                 <holdingPriorities>
@@ -433,6 +442,7 @@
                     </view>
                     <connections>
                         <outlet property="favouritesButton" destination="mpu-SQ-mq4" id="6uo-YR-Tee"/>
+                        <outlet property="scheduleView" destination="x8Z-1e-sRT" id="ehh-40-3Bu"/>
                         <outlet property="sidebarPlaceholder" destination="NGs-nJ-Hlm" id="BqD-gN-urW"/>
                         <outlet property="sidebarSplitView" destination="Tma-xf-wkM" id="mMe-76-5q1"/>
                         <outlet property="sourceList" destination="KMv-rg-iIm" id="Miv-w6-qvD"/>
@@ -445,6 +455,8 @@
     </scenes>
     <resources>
         <image name="NSAddTemplate" width="11" height="11"/>
+        <image name="NSGoBackTemplate" width="9" height="12"/>
+        <image name="NSGoForwardTemplate" width="9" height="12"/>
         <image name="NSListViewTemplate" width="14" height="10"/>
         <image name="NSRemoveTemplate" width="11" height="11"/>
         <image name="ic_star_border" width="48" height="48"/>

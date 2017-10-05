@@ -12,6 +12,8 @@
 #import "AddViewController.h"
 #import "DMSplitView.h"
 
+#import "NSImageView+WebCache.h"
+
 @interface MainViewController : NSViewController <PXSourceListDelegate, PXSourceListDataSource, NSSplitViewDelegate>
 
 @property (strong) IBOutlet PXSourceList *sourceList;
@@ -21,8 +23,12 @@
 @property (strong, nonatomic) NSMutableArray *scheduleList;
 @property (strong, nonatomic) NSMutableArray *sourceListItems;
 
+@property (strong, nonatomic) NSString *currentSchool;
+@property (strong, nonatomic) NSString *currentClass;
+
 @property (weak) IBOutlet NSButton *favouritesButton;
 @property (weak) IBOutlet NSView *sidebarPlaceholder;
+@property (weak) IBOutlet NSImageView *scheduleView;
 @property (weak) IBOutlet DMSplitView *sidebarSplitView;
 
 - (IBAction)addSchool:(id)sender;

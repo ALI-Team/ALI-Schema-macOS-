@@ -27,6 +27,14 @@
     [self.sidebarSplitView setMaxSize:250 ofSubviewAtIndex:0];
 }
 
+- (void)awakeFromNib {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadSchedule) name:NSWindowDidResizeNotification object:nil];
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 #pragma mark SIDEBAR
 
 - (NSUInteger)sourceList:(PXSourceList *)sourceList numberOfChildrenOfItem:(id)item {
@@ -66,6 +74,21 @@
         [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
     }
     
+    NSString *schoolName = [[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title];
+    NSString *className = [[self.sourceList itemAtRow:self.sourceList.selectedRow] title];
+    
+    for (NSDictionary *school in self.scheduleList) {
+        if ([school[@"namn"] isEqualToString:schoolName]) {
+            self.currentSchool = school[@"id"];
+            for (NSString *class in school[@"classList"]) {
+                if ([class isEqualToString:className]) {
+                    self.currentClass = class;
+                }
+            }
+        }
+    }
+    
+    [self loadSchedule];
 }
 
 - (IBAction)addSchool:(id)sender {
@@ -170,6 +193,12 @@
 
 - (NSRect)splitView:(NSSplitView *)splitView effectiveRect:(NSRect)proposedEffectiveRect forDrawnRect:(NSRect)drawnRect ofDividerAtIndex:(NSInteger)dividerIndex {
     return NSZeroRect;
+}
+
+#pragma mark SCHEDULE
+
+- (void)loadSchedule {
+    [self.scheduleView setImageURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&schoolid=%@/sv-se&type=-1&id=%@&period=&week=38&mode=0&printer=0&colors=32&head=0&clock=0&foot=0&day=0&width=%.f&height=%.f&maxwidth=%.f&maxheight=%.f", self.currentSchool, self.currentClass, self.scheduleView.frame.size.width, self.scheduleView.frame.size.height, self.scheduleView.frame.size.width, self.scheduleView.frame.size.height]]];
 }
 
 @end
