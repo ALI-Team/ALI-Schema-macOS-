@@ -272,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="163" y="369"/>
         </scene>
-        <!--Date View Controller-->
+        <!--View Controller-->
         <scene sceneID="oD6-5n-bgo">
             <objects>
-                <viewController storyboardIdentifier="date" id="ojC-n2-ubS" customClass="DateViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="date" id="ojC-n2-ubS" sceneMemberID="viewController">
                     <view key="view" id="ZLL-BI-qVM">
                         <rect key="frame" x="0.0" y="0.0" width="160" height="220"/>
                         <autoresizingMask key="autoresizingMask"/>

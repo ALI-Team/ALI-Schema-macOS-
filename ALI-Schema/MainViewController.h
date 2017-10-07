@@ -8,8 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "PXSourceList.h"
 #import "AddViewController.h"
+
+#import "PXSourceList.h"
 #import "DMSplitView.h"
 
 #import "NSImageView+WebCache.h"
@@ -19,6 +20,7 @@
 @property (strong) IBOutlet PXSourceList *sourceList;
 
 @property (strong, nonatomic) AddViewController *addView;
+@property  id mainWindowController;
 
 @property (strong, nonatomic) NSMutableArray *scheduleList;
 @property (strong, nonatomic) NSMutableArray *sourceListItems;

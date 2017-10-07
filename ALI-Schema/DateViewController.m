@@ -14,15 +14,40 @@
 
 @implementation DateViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do view setup here.
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self instantiatePopover];
+    }
+    return self;
 }
 
-- (void)_makePopoverIfNeeded {
+- (void)instantiatePopover {
     if (self.popover == nil) {
+        
+        NSViewController *contentViewController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"date"];
+        
+        for (NSView *view in contentViewController.view.subviews) {
+            if ([view isKindOfClass:[NSDatePicker class]]) {
+                
+                self.calendarPicker = (NSDatePicker *)view;
+                //self.calendarPicker.dateValue = [NSDate date];
+                
+                [self.calendarPicker setTarget:self];
+                [self.calendarPicker setAction:@selector(calendarPickerChanged:)];
+            }
+            
+            if ([view isKindOfClass:[NSButton class]]) {
+                
+                NSButton *todayButton = (NSButton *)view;
+                
+                [todayButton setTarget:self];
+                [todayButton setAction:@selector(todayPressed:)];
+            }
+        }
+        
         self.popover = [[NSPopover alloc] init];
-        [self.popover setContentViewController:[[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"date"]];
+        [self.popover setContentViewController:contentViewController];
         [self.popover setContentSize:CGSizeMake(160, 220)];
         [self.popover setAnimates:true];
         [self.popover setBehavior:NSPopoverBehaviorTransient];
@@ -31,8 +56,20 @@
 }
 
 - (void)showPopup:(NSView *)positioningView {
-    [self _makePopoverIfNeeded];
+    
+    [self instantiatePopover];
+    
     [self.popover showRelativeToRect:[positioningView bounds] ofView:positioningView preferredEdge:NSMinYEdge];
+}
+
+- (IBAction)todayPressed:(id)sender {
+    [self.listener performSelector:@selector(todayPressed:) withObject:self];
+    [self.popover close];
+}
+
+- (IBAction)        rChanged:(id)sender {
+    [self.listener performSelector:@selector(calendarPickerChanged:) withObject:self.calendarPicker.dateValue];
+    [self.popover close];
 }
 
 @end

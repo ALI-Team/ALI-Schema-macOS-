@@ -18,6 +18,8 @@
     [super windowDidLoad];
 
     self.mainViewController = (MainViewController *)self.contentViewController;
+    self.mainViewController.mainWindowController = self;
+    
     [self updateControl];
 }
 
@@ -36,6 +38,7 @@
         case 1: {
             if (!self.dateViewController) {
                 self.dateViewController = [[DateViewController alloc] init];
+                self.dateViewController.listener = self.mainViewController;
             }
             
             [self.dateViewController showPopup:self.weekControl];
@@ -52,12 +55,14 @@
 }
 
 - (void)updateControl {
-
     [self.weekControl setLabel:[NSString stringWithFormat:@"Week %i", self.mainViewController.week] forSegment:1];
-}
-
-- (void)showRelativeToRect:(NSRect)positioningRect ofView:(NSView *)positioningView preferredEdge:(NSRectEdge)preferredEdge {
     
+    NSDate *newDate;
+    
+    //newDate = [[NSCalendar currentCalendar] dateBySettingUnit:NSCalendarUnitWeekOfYear value:self.mainViewController.week ofDate:[NSDate date] options:0];
+    
+    NSLog(@"%@", newDate);
+    self.dateViewController.calendarPicker.dateValue = newDate;
 }
 
 @end

@@ -20,4 +20,6 @@
 
 - (IBAction)weekChanged:(id)sender;
 
+- (void)updateControl;
+
 @end

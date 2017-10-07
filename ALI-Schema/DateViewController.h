@@ -10,7 +10,10 @@
 
 @interface DateViewController : NSViewController <NSPopoverDelegate>
 
+@property id listener;
+
 @property (strong, nonatomic) NSPopover *popover;
+@property (weak) IBOutlet NSDatePicker *calendarPicker;
 
 - (void)showPopup:(NSView *)positioningView;
 

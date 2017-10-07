@@ -26,9 +26,7 @@
 	[self.sidebarSplitView setMinSize:250 ofSubviewAtIndex:0];
 	[self.sidebarSplitView setMaxSize:250 ofSubviewAtIndex:0];
     
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *dateComponent = [calendar components:NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
-    self.week = (int)dateComponent.weekOfYear;
+    [self todayPressed:self];
 }
 
 - (void)awakeFromNib {
@@ -217,6 +215,24 @@
         self.week--;
         [self loadSchedule];
     }
+}
+
+- (void)todayPressed:(id)sender {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *dateComponent = [calendar components:NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
+    self.week = (int)dateComponent.weekOfYear;
+    
+    [self loadSchedule];
+    [self.mainWindowController performSelector:@selector(updateControl)];
+}
+
+- (void)calendarChanged:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *dateComponent = [calendar components:NSCalendarUnitWeekOfYear fromDate:date];
+    self.week = (int)dateComponent.weekOfYear;
+    
+    [self loadSchedule];
+    [self.mainWindowController performSelector:@selector(updateControl)];
 }
 
 @end
