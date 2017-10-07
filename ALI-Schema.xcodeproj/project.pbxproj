@@ -23,6 +23,7 @@
 		A1C330A21F86DB8400A4BB36 /* NSImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3309F1F86DB4700A4BB36 /* NSImageView+WebCache.m */; };
 		A1C330A31F86DB8800A4BB36 /* OTHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3309D1F86DB4700A4BB36 /* OTHTTPRequest.m */; };
 		A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2B9201F85D98C00259DC9 /* DMSplitView.m */; };
+		A1DC8C431F8853D100F88FDE /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC8C421F8853D100F88FDE /* DateViewController.m */; };
 		A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF3B6A1F4C19B90025A263 /* AddViewController.m */; };
 		A1EF3B6D1F4C19B90025A263 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */; };
 		B387DE8DBFAF248A3AD32FAE /* libPods-ALI-Schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3D18B6CDBD82FFCAA60B3 /* libPods-ALI-Schema.a */; };
@@ -87,6 +88,8 @@
 		A1C3309F1F86DB4700A4BB36 /* NSImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+WebCache.m"; sourceTree = "<group>"; };
 		A1D2B9201F85D98C00259DC9 /* DMSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSplitView.m; sourceTree = "<group>"; };
 		A1D2B9211F85D98C00259DC9 /* DMSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSplitView.h; sourceTree = "<group>"; };
+		A1DC8C411F8853D100F88FDE /* DateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		A1DC8C421F8853D100F88FDE /* DateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 		A1EF3B691F4C19B90025A263 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		A1EF3B6A1F4C19B90025A263 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		A1EF3B6B1F4C19B90025A263 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				A131371D1F4C073000E777DE /* MainViewController.m */,
 				A1EF3B691F4C19B90025A263 /* AddViewController.h */,
 				A1EF3B6A1F4C19B90025A263 /* AddViewController.m */,
+				A1DC8C411F8853D100F88FDE /* DateViewController.h */,
+				A1DC8C421F8853D100F88FDE /* DateViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				A1C330A01F86DB8000A4BB36 /* OTFileCacheManager.m in Sources */,
 				A1D2B9221F85DB3800259DC9 /* DMSplitView.m in Sources */,
 				A1ACAEE21F4BFFB90082BD34 /* main.m in Sources */,
+				A1DC8C431F8853D100F88FDE /* DateViewController.m in Sources */,
 				A131371E1F4C073000E777DE /* MainViewController.m in Sources */,
 				A1EF3B6C1F4C19B90025A263 /* AddViewController.m in Sources */,
 				A1484DA61F7858270058EEC9 /* MainWindowController.m in Sources */,

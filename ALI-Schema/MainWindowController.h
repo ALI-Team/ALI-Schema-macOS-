@@ -8,6 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface MainWindowController : NSWindowController
+#import "MainViewController.h"
+#import "DateViewController.h"
+
+@interface MainWindowController : NSWindowController <NSPopoverDelegate>
+
+@property MainViewController *mainViewController;
+@property DateViewController *dateViewController;
+
+@property (weak) IBOutlet NSSegmentedControl *weekControl;
+
+- (IBAction)weekChanged:(id)sender;
 
 @end

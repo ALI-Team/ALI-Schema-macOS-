@@ -217,18 +217,21 @@
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="J76-Hd-yY6"/>
                                 <toolbarItem implicitItemIdentifier="BA97B1E6-537E-47B2-99B7-971280F69B8F" label="Custom View" paletteLabel="Custom View" id="APN-5e-q86">
                                     <nil key="toolTip"/>
-                                    <size key="minSize" width="140" height="24"/>
+                                    <size key="minSize" width="117" height="24"/>
                                     <size key="maxSize" width="140" height="28"/>
                                     <segmentedControl key="view" verticalHuggingPriority="750" id="5Kf-hU-zfc">
-                                        <rect key="frame" x="0.0" y="14" width="140" height="24"/>
+                                        <rect key="frame" x="0.0" y="14" width="117" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="DjY-DM-siW">
                                             <font key="font" metaFont="system"/>
                                             <segments>
                                                 <segment image="NSGoBackTemplate"/>
-                                                <segment label="Vecka 38" tag="1"/>
+                                                <segment label="Week" tag="1"/>
                                                 <segment image="NSGoForwardTemplate"/>
                                             </segments>
+                                            <connections>
+                                                <action selector="weekChanged:" target="B8D-0N-5wS" id="4sD-MB-7YQ"/>
+                                            </connections>
                                         </segmentedCell>
                                     </segmentedControl>
                                 </toolbarItem>
@@ -261,12 +264,56 @@
                         </connections>
                     </window>
                     <connections>
+                        <outlet property="weekControl" destination="5Kf-hU-zfc" id="6Vd-aC-kox"/>
                         <segue destination="IQy-7h-XYe" kind="relationship" relationship="window.shadowedContentViewController" id="z52-LQ-XXU"/>
                     </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="163" y="369"/>
+        </scene>
+        <!--Date View Controller-->
+        <scene sceneID="oD6-5n-bgo">
+            <objects>
+                <viewController storyboardIdentifier="date" id="ojC-n2-ubS" customClass="DateViewController" sceneMemberID="viewController">
+                    <view key="view" id="ZLL-BI-qVM">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="220"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <datePicker verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pcz-dA-7KE">
+                                <rect key="frame" x="11" y="61" width="139" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="6Lt-D0-lsc"/>
+                                    <constraint firstAttribute="height" constant="148" id="V8U-ft-Y3N"/>
+                                </constraints>
+                                <datePickerCell key="cell" alignment="left" drawsBackground="NO" datePickerStyle="clockAndCalendar" id="zXL-cz-h66">
+                                    <font key="font" metaFont="system"/>
+                                    <date key="date" timeIntervalSinceReferenceDate="-595929600">
+                                        <!--1982-02-12 16:00:00 +0000-->
+                                    </date>
+                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                </datePickerCell>
+                            </datePicker>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rXg-k2-njL">
+                                <rect key="frame" x="42" y="13" width="77" height="32"/>
+                                <buttonCell key="cell" type="push" title="Today" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8XF-IE-w0H">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="pcz-dA-7KE" firstAttribute="centerX" secondItem="ZLL-BI-qVM" secondAttribute="centerX" id="0gf-JM-H9T"/>
+                            <constraint firstItem="rXg-k2-njL" firstAttribute="top" secondItem="pcz-dA-7KE" secondAttribute="bottom" constant="20" id="FLk-7D-Gda"/>
+                            <constraint firstItem="rXg-k2-njL" firstAttribute="centerX" secondItem="ZLL-BI-qVM" secondAttribute="centerX" id="Lbu-dC-2hW"/>
+                            <constraint firstItem="pcz-dA-7KE" firstAttribute="top" secondItem="ZLL-BI-qVM" secondAttribute="top" constant="11" id="RO2-pd-psg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="WMd-TB-Hri" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="368"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="sPC-lf-vL1">
@@ -459,6 +506,6 @@
         <image name="NSGoForwardTemplate" width="9" height="12"/>
         <image name="NSListViewTemplate" width="14" height="10"/>
         <image name="NSRemoveTemplate" width="11" height="11"/>
-        <image name="ic_star_border" width="48" height="48"/>
+        <image name="ic_star_border" width="24" height="24"/>
     </resources>
 </document>

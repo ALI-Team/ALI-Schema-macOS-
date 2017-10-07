@@ -31,8 +31,13 @@
 @property (weak) IBOutlet NSImageView *scheduleView;
 @property (weak) IBOutlet DMSplitView *sidebarSplitView;
 
+@property int week;
+
 - (IBAction)addSchool:(id)sender;
 
+- (void)toggleSidebar:(id)sender;
 - (void)reloadSidebar;
+- (void)weekIncrease;
+- (void)weekDecrease;
 
 @end
