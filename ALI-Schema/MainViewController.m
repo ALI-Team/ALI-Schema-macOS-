@@ -6,6 +6,14 @@
 //  Copyright © 2017 ALI-Team. All rights reserved.
 //
 
+
+/*
+ / DO THIS NEXT TIME:
+ / DON'T USE SECTION+ROW INDEX TO STORE FAVORITE SCHEDULE
+ / JUST USE THE CURRENTLY SELECTED INDEX
+ / YOU FUCKING RETARD.
+*/
+
 #import "MainViewController.h"
 
 @interface MainViewController ()
@@ -27,6 +35,8 @@
 	[self.sidebarSplitView setMaxSize:250 ofSubviewAtIndex:0];
     
     [self todayPressed:self];
+    
+    [self loadFavorite];
 }
 
 - (void)awakeFromNib {
@@ -63,34 +73,50 @@
 }
 
 - (void)sourceListSelectionDidChange:(NSNotification *)notification {
-	
-	NSInteger sectionIndex = [self.sourceList rowForItem:[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]]];
-	NSInteger rowIndex = self.sourceList.selectedRow - sectionIndex - 1;
-	
-	NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
-	NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
-	
-	if ([currentFavorite isEqualTo:selectedItemIndex]) {
-		[self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
-	} else {
-		[self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
-	}
-	
-	NSString *schoolName = [[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title];
-	NSString *className = [[self.sourceList itemAtRow:self.sourceList.selectedRow] title];
-	
-	for (NSDictionary *school in self.scheduleList) {
-		if ([school[@"namn"] isEqualToString:schoolName]) {
-			self.currentSchool = school[@"id"];
-			for (NSString *class in school[@"classList"]) {
-				if ([class isEqualToString:className]) {
-					self.currentClass = class;
-				}
-			}
-		}
-	}
-	
-	[self loadSchedule];
+
+    NSInteger sectionIndex = -1;
+    NSInteger rowIndex = -1;
+    
+    for (NSDictionary *school in self.scheduleList) {
+        if ([[[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title] isEqualToString:school[@"namn"]]) {
+            sectionIndex = [self.scheduleList indexOfObject:school];
+        }
+    }
+    
+    if (sectionIndex > -1) {
+        for (NSString *class in self.scheduleList[sectionIndex][@"classList"]) {
+            if ([[[self.sourceList itemAtRow:self.sourceList.selectedRow] title] isEqualToString:class]) {
+                rowIndex = [self.scheduleList[sectionIndex][@"classList"] indexOfObject:class];
+            }
+        }
+        
+        if (rowIndex > -1) {
+            NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
+            NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
+            
+            if ([currentFavorite isEqualTo:selectedItemIndex]) {
+                [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
+            } else {
+                [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
+            }
+            
+            NSString *schoolName = [[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title];
+            NSString *className = [[self.sourceList itemAtRow:self.sourceList.selectedRow] title];
+            
+            for (NSDictionary *school in self.scheduleList) {
+                if ([school[@"namn"] isEqualToString:schoolName]) {
+                    self.currentSchool = school[@"id"];
+                    for (NSString *class in school[@"classList"]) {
+                        if ([class isEqualToString:className]) {
+                            self.currentClass = class;
+                        }
+                    }
+                }
+            }
+            
+            [self loadSchedule];
+        }
+    }
 }
 
 - (IBAction)addSchool:(id)sender {
@@ -156,29 +182,43 @@
 }
 
 - (IBAction)toggleFavourites:(id)sender {
-	
-	NSInteger sectionIndex = [self.sourceList rowForItem:[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]]];
-	NSInteger rowIndex = self.sourceList.selectedRow - sectionIndex - 1;
-	
-	NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
-	NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
-	
-	//    NSLog(@"s %i r %i", currentFavorite.section, currentFavorite.item);
-	
-	if ([currentFavorite isEqualTo:selectedItemIndex]) {
-		
-		[[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"favorite"];
-		[[NSUserDefaults standardUserDefaults] synchronize];
-		
-		[self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
-		
-	} else {
-		
-		[self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
-		
-		[[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:selectedItemIndex] forKey:@"favorite"];
-		[[NSUserDefaults standardUserDefaults] synchronize];
-	}
+    
+    NSInteger sectionIndex = -1;
+    NSInteger rowIndex = -1;
+    
+    for (NSDictionary *school in self.scheduleList) {
+        if ([[[self.sourceList parentForItem:[self.sourceList itemAtRow:self.sourceList.selectedRow]] title] isEqualToString:school[@"namn"]]) {
+            sectionIndex = [self.scheduleList indexOfObject:school];
+        }
+    }
+    
+    if (sectionIndex > -1) {
+        for (NSString *class in self.scheduleList[sectionIndex][@"classList"]) {
+            if ([[[self.sourceList itemAtRow:self.sourceList.selectedRow] title] isEqualToString:class]) {
+                rowIndex = [self.scheduleList[sectionIndex][@"classList"] indexOfObject:class];
+            }
+        }
+        
+        if (rowIndex > -1) {
+            NSIndexPath *currentFavorite = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
+            NSIndexPath *selectedItemIndex = [NSIndexPath indexPathForItem:rowIndex inSection:sectionIndex];
+            
+            if ([currentFavorite isEqualTo:selectedItemIndex]) {
+                
+                [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"favorite"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
+                
+                [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star_border"]];
+                
+            } else {
+                
+                [self.favouritesButton setImage:[NSImage imageNamed:@"ic_star"]];
+                
+                [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:selectedItemIndex] forKey:@"favorite"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
+            }
+        }
+    }
 }
 
 - (void)toggleSidebar:(id)sender {
@@ -198,6 +238,15 @@
 }
 
 #pragma mark SCHEDULE
+
+- (void)loadFavorite {
+    NSIndexPath *favoriteIndex = [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"favorite"]];
+    
+    NSLog(@"%i", (int)favoriteIndex.section);
+    NSLog(@"%i", (int)favoriteIndex.item);
+    
+    
+}
 
 - (void)loadSchedule {
     [self.scheduleView setImageURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&schoolid=%@/sv-se&type=-1&id=%@&period=&week=%i&mode=0&printer=0&colors=32&head=0&clock=0&foot=0&day=0&width=%.f&height=%.f&maxwidth=%.f&maxheight=%.f", self.currentSchool, self.currentClass, self.week, self.scheduleView.frame.size.width, self.scheduleView.frame.size.height, self.scheduleView.frame.size.width, self.scheduleView.frame.size.height]]];
