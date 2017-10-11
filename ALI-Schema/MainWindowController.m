@@ -57,11 +57,15 @@
 - (void)updateControl {
     [self.weekControl setLabel:[NSString stringWithFormat:@"Week %i", self.mainViewController.week] forSegment:1];
     
-    NSDate *newDate;
+    NSDateComponents *currentDateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitYear fromDate:[NSDate date]];
     
-    //newDate = [[NSCalendar currentCalendar] dateBySettingUnit:NSCalendarUnitWeekOfYear value:self.mainViewController.week ofDate:[NSDate date] options:0];
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+    components.weekday = 0;
+    components.year = currentDateComponents.year;
+    components.weekOfYear = self.mainViewController.week;
+  
+    NSDate *newDate = [[NSCalendar currentCalendar] dateFromComponents:components];
     
-    NSLog(@"%@", newDate);
     self.dateViewController.calendarPicker.dateValue = newDate;
 }
 

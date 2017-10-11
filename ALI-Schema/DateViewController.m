@@ -31,7 +31,7 @@
             if ([view isKindOfClass:[NSDatePicker class]]) {
                 
                 self.calendarPicker = (NSDatePicker *)view;
-                //self.calendarPicker.dateValue = [NSDate date];
+                self.calendarPicker.dateValue = [NSDate date];
                 
                 [self.calendarPicker setTarget:self];
                 [self.calendarPicker setAction:@selector(calendarPickerChanged:)];
@@ -67,7 +67,7 @@
     [self.popover close];
 }
 
-- (IBAction)        rChanged:(id)sender {
+- (IBAction)calendarPickerChanged:(id)sender {
     [self.listener performSelector:@selector(calendarPickerChanged:) withObject:self.calendarPicker.dateValue];
     [self.popover close];
 }

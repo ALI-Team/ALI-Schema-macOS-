@@ -226,7 +226,7 @@
     [self.mainWindowController performSelector:@selector(updateControl)];
 }
 
-- (void)calendarChanged:(NSDate *)date {
+- (void)calendarPickerChanged:(NSDate *)date {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *dateComponent = [calendar components:NSCalendarUnitWeekOfYear fromDate:date];
     self.week = (int)dateComponent.weekOfYear;
